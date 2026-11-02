@@ -82,7 +82,7 @@ export function createServer(){return http.createServer(async(req,res)=>{
     if(url.pathname==='/api/catalog'){res.setHeader('Content-Type','application/json');return res.end(JSON.stringify(await catalog()));}
     const name=url.pathname==='/'?'/studio/pack-studio.html':decodeURIComponent(url.pathname);
     // Only serve game, studio UI, catalogue and pack media. Never expose arbitrary local files.
-    if(!(name==='/index.html'||name==='/game.html'||name==='/studio/pack-studio.html'||name==='/studio/core.mjs'||/^\/(?:shared|packs)\/[a-zA-Z0-9/_.-]+$/.test(name))) {res.writeHead(404);return res.end('Not found');}
+    if(!(name==='/index.html'||name==='/game.html'||['/studio/pack-studio.html','/studio/core.mjs','/studio/zip.mjs','/studio/generation-session.mjs'].includes(name)||/^\/(?:shared|packs)\/[a-zA-Z0-9/_.-]+$/.test(name))) {res.writeHead(404);return res.end('Not found');}
     const target=path.resolve(root,'.'+name);if(!target.startsWith(root+path.sep))throw Error('Invalid path');
     const data=await fs.readFile(target);const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.webp':'image/webp','.mp3':'audio/mpeg','.wav':'audio/wav'}[path.extname(target)]||'application/octet-stream';
     res.setHeader('Content-Type',mime);res.end(data);

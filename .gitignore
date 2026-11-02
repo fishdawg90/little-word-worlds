@@ -9,3 +9,4 @@ tools/migrate-original.cjs
 tools/publish.mjs
 hosted-studio/
 tools/build-hosted-studio.mjs
+tools/update-studio-completion.cjs
