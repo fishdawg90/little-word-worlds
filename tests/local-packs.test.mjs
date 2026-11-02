@@ -8,7 +8,7 @@ test('browser import persists packs, plays bundled media, rejects duplicates and
   const items=names.map(key=>({key,en:key,it:'it-'+key,prompt_en:'Where is the '+key+'?',prompt_it:'Dov’è '+key+'?',image:`images/${key}.webp`,audio_en:`audio/en/${key}.mp3`,audio_it:`audio/it/${key}.mp3`}));
   const files={};for(const i of items){files[i.image]={mime:'image/webp',base64:image,generation:{unused:'metadata'}};for(const k of ['audio_en','audio_it'])files[i[k]]={mime:'audio/mpeg',base64:audio}}
   const bundle={format:'vocabulary-pack-bundle',version:1,ready:true,pack:{format:'vocabulary-pack',version:1,id:'fruit',title:{en:'Fruit',it:'Frutta'},items,shared:{praise:['https://untrusted.example/file.mp3']}},files,settings:{key:'do-not-store'}};
-  const file={size:5000,text:async()=>JSON.stringify(bundle)},catalog=JSON.parse(fs.readFileSync('packs/catalog.json'));
+  const file={size:5000,text:async()=>JSON.stringify(bundle)},catalog=({packs:JSON.parse(fs.readFileSync('packs/catalog.json')).packs.filter(p=>p.id==='animals')});
   try{
     assert.equal((await importLocalPack(file,catalog)).id,'fruit');assert.equal(writes,1);assert.ok(!JSON.stringify([...stored.values()]).includes('do-not-store'));assert.ok(!JSON.stringify([...stored.values()]).includes('untrusted.example'));
     const all=await listLocalPacks();assert.equal(all.length,1);assert.equal(all[0].local,true);

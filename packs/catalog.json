@@ -284,6 +284,170 @@
           "it": "aragosta"
         }
       ]
+    },
+    {
+      "id": "fruit-and-vegetables",
+      "title": {
+        "en": "Find the Fruit & Vegetables!",
+        "it": "Trova la frutta e la verdura!"
+      },
+      "topic": "Fruit and Vegetables",
+      "emoji": "🍎 🥕 🍐",
+      "path": "packs/fruit-and-vegetables/pack.json",
+      "items": [
+        {
+          "key": "apple",
+          "en": "apple",
+          "it": "mela",
+          "aliases": []
+        },
+        {
+          "key": "banana",
+          "en": "banana",
+          "it": "banana",
+          "aliases": []
+        },
+        {
+          "key": "orange",
+          "en": "orange",
+          "it": "arancia",
+          "aliases": []
+        },
+        {
+          "key": "pear",
+          "en": "pear",
+          "it": "pera",
+          "aliases": []
+        },
+        {
+          "key": "strawberry",
+          "en": "strawberry",
+          "it": "fragola",
+          "aliases": []
+        },
+        {
+          "key": "watermelon",
+          "en": "watermelon",
+          "it": "anguria",
+          "aliases": [
+            "cocomero"
+          ]
+        },
+        {
+          "key": "pineapple",
+          "en": "pineapple",
+          "it": "ananas",
+          "aliases": []
+        },
+        {
+          "key": "lemon",
+          "en": "lemon",
+          "it": "limone",
+          "aliases": []
+        },
+        {
+          "key": "peach",
+          "en": "peach",
+          "it": "pesca",
+          "aliases": []
+        },
+        {
+          "key": "cherry",
+          "en": "cherry",
+          "it": "ciliegia",
+          "aliases": []
+        },
+        {
+          "key": "grape",
+          "en": "grape",
+          "it": "uva",
+          "aliases": []
+        },
+        {
+          "key": "blueberry",
+          "en": "blueberry",
+          "it": "mirtillo",
+          "aliases": []
+        },
+        {
+          "key": "kiwi",
+          "en": "kiwi",
+          "it": "kiwi",
+          "aliases": [
+            "kiwifruit"
+          ]
+        },
+        {
+          "key": "mango",
+          "en": "mango",
+          "it": "mango",
+          "aliases": []
+        },
+        {
+          "key": "avocado",
+          "en": "avocado",
+          "it": "avocado",
+          "aliases": []
+        },
+        {
+          "key": "plum",
+          "en": "plum",
+          "it": "prugna",
+          "aliases": []
+        },
+        {
+          "key": "coconut",
+          "en": "coconut",
+          "it": "noce di cocco",
+          "aliases": []
+        },
+        {
+          "key": "carrot",
+          "en": "carrot",
+          "it": "carota",
+          "aliases": []
+        },
+        {
+          "key": "tomato",
+          "en": "tomato",
+          "it": "pomodoro",
+          "aliases": []
+        },
+        {
+          "key": "cucumber",
+          "en": "cucumber",
+          "it": "cetriolo",
+          "aliases": []
+        },
+        {
+          "key": "potato",
+          "en": "potato",
+          "it": "patata",
+          "aliases": []
+        },
+        {
+          "key": "corn-cob",
+          "en": "corn cob",
+          "it": "mais",
+          "aliases": [
+            "maize cob"
+          ]
+        },
+        {
+          "key": "bell-pepper",
+          "en": "bell pepper",
+          "it": "peperone",
+          "aliases": [
+            "sweet pepper"
+          ]
+        },
+        {
+          "key": "cauliflower",
+          "en": "cauliflower",
+          "it": "cavolfiore",
+          "aliases": []
+        }
+      ]
     }
   ]
 }

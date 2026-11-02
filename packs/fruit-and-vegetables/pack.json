@@ -1,0 +1,296 @@
+{
+  "format": "vocabulary-pack",
+  "version": 1,
+  "id": "fruit-and-vegetables",
+  "title": {
+    "en": "Find the Fruit & Vegetables!",
+    "it": "Trova la frutta e la verdura!"
+  },
+  "topic": "Fruit and Vegetables",
+  "emoji": "🍎 🥕 🍐",
+  "ai_generated_voice": true,
+  "items": [
+    {
+      "key": "apple",
+      "en": "apple",
+      "it": "mela",
+      "prompt_en": "Where is the apple?",
+      "prompt_it": "Dov'è la mela?",
+      "aliases": [],
+      "image": "images/apple.webp",
+      "audio_en": "audio/en/apple.wav",
+      "audio_it": "audio/it/apple.wav"
+    },
+    {
+      "key": "banana",
+      "en": "banana",
+      "it": "banana",
+      "prompt_en": "Where is the banana?",
+      "prompt_it": "Dov'è la banana?",
+      "aliases": [],
+      "image": "images/banana.webp",
+      "audio_en": "audio/en/banana.wav",
+      "audio_it": "audio/it/banana.wav"
+    },
+    {
+      "key": "orange",
+      "en": "orange",
+      "it": "arancia",
+      "prompt_en": "Where is the orange?",
+      "prompt_it": "Dov'è l'arancia?",
+      "aliases": [],
+      "image": "images/orange.webp",
+      "audio_en": "audio/en/orange.wav",
+      "audio_it": "audio/it/orange.wav"
+    },
+    {
+      "key": "pear",
+      "en": "pear",
+      "it": "pera",
+      "prompt_en": "Where is the pear?",
+      "prompt_it": "Dov'è la pera?",
+      "aliases": [],
+      "image": "images/pear.webp",
+      "audio_en": "audio/en/pear.wav",
+      "audio_it": "audio/it/pear.wav"
+    },
+    {
+      "key": "strawberry",
+      "en": "strawberry",
+      "it": "fragola",
+      "prompt_en": "Where is the strawberry?",
+      "prompt_it": "Dov'è la fragola?",
+      "aliases": [],
+      "image": "images/strawberry.webp",
+      "audio_en": "audio/en/strawberry.wav",
+      "audio_it": "audio/it/strawberry.wav"
+    },
+    {
+      "key": "watermelon",
+      "en": "watermelon",
+      "it": "anguria",
+      "prompt_en": "Where is the watermelon?",
+      "prompt_it": "Dov'è l'anguria?",
+      "aliases": [
+        "cocomero"
+      ],
+      "image": "images/watermelon.webp",
+      "audio_en": "audio/en/watermelon.wav",
+      "audio_it": "audio/it/watermelon.wav"
+    },
+    {
+      "key": "pineapple",
+      "en": "pineapple",
+      "it": "ananas",
+      "prompt_en": "Where is the pineapple?",
+      "prompt_it": "Dov'è l'ananas?",
+      "aliases": [],
+      "image": "images/pineapple.webp",
+      "audio_en": "audio/en/pineapple.wav",
+      "audio_it": "audio/it/pineapple.wav"
+    },
+    {
+      "key": "lemon",
+      "en": "lemon",
+      "it": "limone",
+      "prompt_en": "Where is the lemon?",
+      "prompt_it": "Dov'è il limone?",
+      "aliases": [],
+      "image": "images/lemon.webp",
+      "audio_en": "audio/en/lemon.wav",
+      "audio_it": "audio/it/lemon.wav"
+    },
+    {
+      "key": "peach",
+      "en": "peach",
+      "it": "pesca",
+      "prompt_en": "Where is the peach?",
+      "prompt_it": "Dov'è la pesca?",
+      "aliases": [],
+      "image": "images/peach.webp",
+      "audio_en": "audio/en/peach.wav",
+      "audio_it": "audio/it/peach.wav"
+    },
+    {
+      "key": "cherry",
+      "en": "cherry",
+      "it": "ciliegia",
+      "prompt_en": "Where is the cherry?",
+      "prompt_it": "Dov'è la ciliegia?",
+      "aliases": [],
+      "image": "images/cherry.webp",
+      "audio_en": "audio/en/cherry.wav",
+      "audio_it": "audio/it/cherry.wav"
+    },
+    {
+      "key": "grape",
+      "en": "grape",
+      "it": "uva",
+      "prompt_en": "Where is the grape?",
+      "prompt_it": "Dov'è l'uva?",
+      "aliases": [],
+      "image": "images/grape.webp",
+      "audio_en": "audio/en/grape.wav",
+      "audio_it": "audio/it/grape.wav"
+    },
+    {
+      "key": "blueberry",
+      "en": "blueberry",
+      "it": "mirtillo",
+      "prompt_en": "Where is the blueberry?",
+      "prompt_it": "Dov'è il mirtillo?",
+      "aliases": [],
+      "image": "images/blueberry.webp",
+      "audio_en": "audio/en/blueberry.wav",
+      "audio_it": "audio/it/blueberry.wav"
+    },
+    {
+      "key": "kiwi",
+      "en": "kiwi",
+      "it": "kiwi",
+      "prompt_en": "Where is the kiwi?",
+      "prompt_it": "Dov'è il kiwi?",
+      "aliases": [
+        "kiwifruit"
+      ],
+      "image": "images/kiwi.webp",
+      "audio_en": "audio/en/kiwi.wav",
+      "audio_it": "audio/it/kiwi.wav"
+    },
+    {
+      "key": "mango",
+      "en": "mango",
+      "it": "mango",
+      "prompt_en": "Where is the mango?",
+      "prompt_it": "Dov'è il mango?",
+      "aliases": [],
+      "image": "images/mango.webp",
+      "audio_en": "audio/en/mango.wav",
+      "audio_it": "audio/it/mango.wav"
+    },
+    {
+      "key": "avocado",
+      "en": "avocado",
+      "it": "avocado",
+      "prompt_en": "Where is the avocado?",
+      "prompt_it": "Dov'è l'avocado?",
+      "aliases": [],
+      "image": "images/avocado.webp",
+      "audio_en": "audio/en/avocado.wav",
+      "audio_it": "audio/it/avocado.wav"
+    },
+    {
+      "key": "plum",
+      "en": "plum",
+      "it": "prugna",
+      "prompt_en": "Where is the plum?",
+      "prompt_it": "Dov'è la prugna?",
+      "aliases": [],
+      "image": "images/plum.webp",
+      "audio_en": "audio/en/plum.wav",
+      "audio_it": "audio/it/plum.wav"
+    },
+    {
+      "key": "coconut",
+      "en": "coconut",
+      "it": "noce di cocco",
+      "prompt_en": "Where is the coconut?",
+      "prompt_it": "Dov'è la noce di cocco?",
+      "aliases": [],
+      "image": "images/coconut.webp",
+      "audio_en": "audio/en/coconut.wav",
+      "audio_it": "audio/it/coconut.wav"
+    },
+    {
+      "key": "carrot",
+      "en": "carrot",
+      "it": "carota",
+      "prompt_en": "Where is the carrot?",
+      "prompt_it": "Dov'è la carota?",
+      "aliases": [],
+      "image": "images/carrot.webp",
+      "audio_en": "audio/en/carrot.wav",
+      "audio_it": "audio/it/carrot.wav"
+    },
+    {
+      "key": "tomato",
+      "en": "tomato",
+      "it": "pomodoro",
+      "prompt_en": "Where is the tomato?",
+      "prompt_it": "Dov'è il pomodoro?",
+      "aliases": [],
+      "image": "images/tomato.webp",
+      "audio_en": "audio/en/tomato.wav",
+      "audio_it": "audio/it/tomato.wav"
+    },
+    {
+      "key": "cucumber",
+      "en": "cucumber",
+      "it": "cetriolo",
+      "prompt_en": "Where is the cucumber?",
+      "prompt_it": "Dov'è il cetriolo?",
+      "aliases": [],
+      "image": "images/cucumber.webp",
+      "audio_en": "audio/en/cucumber.wav",
+      "audio_it": "audio/it/cucumber.wav"
+    },
+    {
+      "key": "potato",
+      "en": "potato",
+      "it": "patata",
+      "prompt_en": "Where is the potato?",
+      "prompt_it": "Dov'è la patata?",
+      "aliases": [],
+      "image": "images/potato.webp",
+      "audio_en": "audio/en/potato.wav",
+      "audio_it": "audio/it/potato.wav"
+    },
+    {
+      "key": "corn-cob",
+      "en": "corn cob",
+      "it": "mais",
+      "prompt_en": "Where is the corn cob?",
+      "prompt_it": "Dov'è il mais?",
+      "aliases": [
+        "maize cob"
+      ],
+      "image": "images/corn-cob.webp",
+      "audio_en": "audio/en/corn-cob.wav",
+      "audio_it": "audio/it/corn-cob.wav"
+    },
+    {
+      "key": "bell-pepper",
+      "en": "bell pepper",
+      "it": "peperone",
+      "prompt_en": "Where is the bell pepper?",
+      "prompt_it": "Dov'è il peperone?",
+      "aliases": [
+        "sweet pepper"
+      ],
+      "image": "images/bell-pepper.webp",
+      "audio_en": "audio/en/bell-pepper.wav",
+      "audio_it": "audio/it/bell-pepper.wav"
+    },
+    {
+      "key": "cauliflower",
+      "en": "cauliflower",
+      "it": "cavolfiore",
+      "prompt_en": "Where is the cauliflower?",
+      "prompt_it": "Dov'è il cavolfiore?",
+      "aliases": [],
+      "image": "images/cauliflower.webp",
+      "audio_en": "audio/en/cauliflower.wav",
+      "audio_it": "audio/it/cauliflower.wav"
+    }
+  ],
+  "shared": {
+    "praise": [
+      "../animals/audio/it/brava-1.mp3",
+      "../animals/audio/it/brava-2.mp3",
+      "../animals/audio/it/brava-3.mp3",
+      "../animals/audio/it/brava-4.mp3",
+      "../animals/audio/it/brava-5.mp3",
+      "../animals/audio/it/brava-6.mp3"
+    ]
+  }
+}
