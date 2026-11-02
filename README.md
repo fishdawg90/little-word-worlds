@@ -6,6 +6,10 @@ Play: https://fishdawg90.github.io/little-word-worlds/
 
 Animals: https://fishdawg90.github.io/little-word-worlds/game.html?pack=animals
 
+## Use Pack Studio online
+
+Open https://fishdawg90.github.io/little-word-worlds-studio/ from a modern desktop, tablet or phone browser. Its source is in the separate public repository https://github.com/fishdawg90/little-word-worlds-studio. Enter your own API key for that tab; it is sent directly to OpenAI and never stored in GitHub, drafts or exports. Drafts do not sync between devices: save a draft file and reopen it on the other device.
+
 ## Run on your computer
 
 Install Node.js 22 or newer. Double-click `studio/Start-Pack-Studio.cmd` on Windows. It installs the small `ws` dependency on first launch, starts a loopback-only helper and opens the HTML interface at http://127.0.0.1:8777. Keep the helper window open. If the browser opens before the helper is ready, reload the page.

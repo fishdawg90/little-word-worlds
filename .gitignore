@@ -7,3 +7,5 @@ test-output/
 !.env.example
 tools/migrate-original.cjs
 tools/publish.mjs
+hosted-studio/
+tools/build-hosted-studio.mjs
