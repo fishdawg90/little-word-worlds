@@ -1,0 +1,9 @@
+.codex-attachments/
+node_modules/
+dist/
+test-output/
+*.log
+.env*
+!.env.example
+tools/migrate-original.cjs
+tools/publish.mjs

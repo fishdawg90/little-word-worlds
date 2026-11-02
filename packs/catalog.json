@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "animals",
+      "title": {
+        "en": "Find the Animal!",
+        "it": "Trova l’animale!"
+      },
+      "topic": "Animals",
+      "emoji": "🦓 🐘 🐻",
+      "path": "packs/animals/pack.json",
+      "items": [
+        {
+          "key": "zebra",
+          "en": "zebra",
+          "it": "zebra"
+        },
+        {
+          "key": "elephant",
+          "en": "elephant",
+          "it": "elefante"
+        },
+        {
+          "key": "lion",
+          "en": "lion",
+          "it": "leone"
+        },
+        {
+          "key": "tiger",
+          "en": "tiger",
+          "it": "tigre"
+        },
+        {
+          "key": "monkey",
+          "en": "monkey",
+          "it": "scimmia"
+        },
+        {
+          "key": "giraffe",
+          "en": "giraffe",
+          "it": "giraffa"
+        },
+        {
+          "key": "dog",
+          "en": "dog",
+          "it": "cane"
+        },
+        {
+          "key": "cat",
+          "en": "cat",
+          "it": "gatto"
+        },
+        {
+          "key": "cow",
+          "en": "cow",
+          "it": "mucca"
+        },
+        {
+          "key": "pig",
+          "en": "pig",
+          "it": "maiale"
+        },
+        {
+          "key": "horse",
+          "en": "horse",
+          "it": "cavallo"
+        },
+        {
+          "key": "rabbit",
+          "en": "rabbit",
+          "it": "coniglio"
+        },
+        {
+          "key": "mouse",
+          "en": "mouse",
+          "it": "topo"
+        },
+        {
+          "key": "fox",
+          "en": "fox",
+          "it": "volpe"
+        },
+        {
+          "key": "bear",
+          "en": "bear",
+          "it": "orso"
+        },
+        {
+          "key": "panda",
+          "en": "panda",
+          "it": "panda"
+        },
+        {
+          "key": "frog",
+          "en": "frog",
+          "it": "rana"
+        },
+        {
+          "key": "duck",
+          "en": "duck",
+          "it": "anatra"
+        },
+        {
+          "key": "chicken",
+          "en": "chicken",
+          "it": "gallina",
+          "aliases": [
+            "hen"
+          ]
+        },
+        {
+          "key": "owl",
+          "en": "owl",
+          "it": "gufo"
+        },
+        {
+          "key": "penguin",
+          "en": "penguin",
+          "it": "pinguino"
+        },
+        {
+          "key": "fish",
+          "en": "fish",
+          "it": "pesce"
+        },
+        {
+          "key": "whale",
+          "en": "whale",
+          "it": "balena"
+        },
+        {
+          "key": "turtle",
+          "en": "turtle",
+          "it": "tartaruga"
+        },
+        {
+          "key": "crocodile",
+          "en": "crocodile",
+          "it": "coccodrillo"
+        },
+        {
+          "key": "snake",
+          "en": "snake",
+          "it": "serpente"
+        },
+        {
+          "key": "butterfly",
+          "en": "butterfly",
+          "it": "farfalla"
+        },
+        {
+          "key": "bee",
+          "en": "bee",
+          "it": "ape"
+        },
+        {
+          "key": "sheep",
+          "en": "sheep",
+          "it": "pecora"
+        },
+        {
+          "key": "goat",
+          "en": "goat",
+          "it": "capra"
+        },
+        {
+          "key": "deer",
+          "en": "deer",
+          "it": "cervo"
+        },
+        {
+          "key": "camel",
+          "en": "camel",
+          "it": "cammello"
+        },
+        {
+          "key": "llama",
+          "en": "llama",
+          "it": "lama"
+        },
+        {
+          "key": "koala",
+          "en": "koala",
+          "it": "koala"
+        },
+        {
+          "key": "kangaroo",
+          "en": "kangaroo",
+          "it": "canguro"
+        },
+        {
+          "key": "gorilla",
+          "en": "gorilla",
+          "it": "gorilla"
+        },
+        {
+          "key": "hippo",
+          "en": "hippo",
+          "it": "ippopotamo",
+          "aliases": [
+            "hippopotamus"
+          ]
+        },
+        {
+          "key": "rhino",
+          "en": "rhino",
+          "it": "rinoceronte",
+          "aliases": [
+            "rhinoceros"
+          ]
+        },
+        {
+          "key": "dolphin",
+          "en": "dolphin",
+          "it": "delfino"
+        },
+        {
+          "key": "octopus",
+          "en": "octopus",
+          "it": "polpo"
+        },
+        {
+          "key": "crab",
+          "en": "crab",
+          "it": "granchio"
+        },
+        {
+          "key": "seal",
+          "en": "seal",
+          "it": "foca"
+        },
+        {
+          "key": "parrot",
+          "en": "parrot",
+          "it": "pappagallo"
+        },
+        {
+          "key": "peacock",
+          "en": "peacock",
+          "it": "pavone"
+        },
+        {
+          "key": "flamingo",
+          "en": "flamingo",
+          "it": "fenicottero"
+        },
+        {
+          "key": "swan",
+          "en": "swan",
+          "it": "cigno"
+        },
+        {
+          "key": "bat",
+          "en": "bat",
+          "it": "pipistrello"
+        },
+        {
+          "key": "hedgehog",
+          "en": "hedgehog",
+          "it": "riccio"
+        },
+        {
+          "key": "snail",
+          "en": "snail",
+          "it": "lumaca"
+        },
+        {
+          "key": "ladybird",
+          "en": "ladybird",
+          "it": "coccinella",
+          "aliases": [
+            "ladybug"
+          ]
+        },
+        {
+          "key": "ant",
+          "en": "ant",
+          "it": "formica"
+        },
+        {
+          "key": "lobster",
+          "en": "lobster",
+          "it": "aragosta"
+        }
+      ]
+    }
+  ]
+}

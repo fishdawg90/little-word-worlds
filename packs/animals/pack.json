@@ -1,0 +1,546 @@
+{
+  "format": "vocabulary-pack",
+  "version": 1,
+  "id": "animals",
+  "title": {
+    "en": "Find the Animal!",
+    "it": "Trova l’animale!"
+  },
+  "topic": "Animals",
+  "emoji": "🦓 🐘 🐻",
+  "items": [
+    {
+      "key": "zebra",
+      "en": "zebra",
+      "it": "zebra",
+      "prompt_en": "Where's the zebra?",
+      "prompt_it": "Dov'è la zebra?",
+      "image": "images/zebra.webp",
+      "audio_en": "audio/en/zebra.mp3",
+      "audio_it": "audio/it/zebra.mp3"
+    },
+    {
+      "key": "elephant",
+      "en": "elephant",
+      "it": "elefante",
+      "prompt_en": "Where's the elephant?",
+      "prompt_it": "Dov'è l'elefante?",
+      "image": "images/elephant.webp",
+      "audio_en": "audio/en/elephant.mp3",
+      "audio_it": "audio/it/elephant.mp3"
+    },
+    {
+      "key": "lion",
+      "en": "lion",
+      "it": "leone",
+      "prompt_en": "Where's the lion?",
+      "prompt_it": "Dov'è il leone?",
+      "image": "images/lion.webp",
+      "audio_en": "audio/en/lion.mp3",
+      "audio_it": "audio/it/lion.mp3"
+    },
+    {
+      "key": "tiger",
+      "en": "tiger",
+      "it": "tigre",
+      "prompt_en": "Where's the tiger?",
+      "prompt_it": "Dov'è la tigre?",
+      "image": "images/tiger.webp",
+      "audio_en": "audio/en/tiger.mp3",
+      "audio_it": "audio/it/tiger.mp3"
+    },
+    {
+      "key": "monkey",
+      "en": "monkey",
+      "it": "scimmia",
+      "prompt_en": "Where's the monkey?",
+      "prompt_it": "Dov'è la scimmia?",
+      "image": "images/monkey.webp",
+      "audio_en": "audio/en/monkey.mp3",
+      "audio_it": "audio/it/monkey.mp3"
+    },
+    {
+      "key": "giraffe",
+      "en": "giraffe",
+      "it": "giraffa",
+      "prompt_en": "Where's the giraffe?",
+      "prompt_it": "Dov'è la giraffa?",
+      "image": "images/giraffe.webp",
+      "audio_en": "audio/en/giraffe.mp3",
+      "audio_it": "audio/it/giraffe.mp3"
+    },
+    {
+      "key": "dog",
+      "en": "dog",
+      "it": "cane",
+      "prompt_en": "Where's the dog?",
+      "prompt_it": "Dov'è il cane?",
+      "image": "images/dog.webp",
+      "audio_en": "audio/en/dog.mp3",
+      "audio_it": "audio/it/dog.mp3"
+    },
+    {
+      "key": "cat",
+      "en": "cat",
+      "it": "gatto",
+      "prompt_en": "Where's the cat?",
+      "prompt_it": "Dov'è il gatto?",
+      "image": "images/cat.webp",
+      "audio_en": "audio/en/cat.mp3",
+      "audio_it": "audio/it/cat.mp3"
+    },
+    {
+      "key": "cow",
+      "en": "cow",
+      "it": "mucca",
+      "prompt_en": "Where's the cow?",
+      "prompt_it": "Dov'è la mucca?",
+      "image": "images/cow.webp",
+      "audio_en": "audio/en/cow.mp3",
+      "audio_it": "audio/it/cow.mp3"
+    },
+    {
+      "key": "pig",
+      "en": "pig",
+      "it": "maiale",
+      "prompt_en": "Where's the pig?",
+      "prompt_it": "Dov'è il maiale?",
+      "image": "images/pig.webp",
+      "audio_en": "audio/en/pig.mp3",
+      "audio_it": "audio/it/pig.mp3"
+    },
+    {
+      "key": "horse",
+      "en": "horse",
+      "it": "cavallo",
+      "prompt_en": "Where's the horse?",
+      "prompt_it": "Dov'è il cavallo?",
+      "image": "images/horse.webp",
+      "audio_en": "audio/en/horse.mp3",
+      "audio_it": "audio/it/horse.mp3"
+    },
+    {
+      "key": "rabbit",
+      "en": "rabbit",
+      "it": "coniglio",
+      "prompt_en": "Where's the rabbit?",
+      "prompt_it": "Dov'è il coniglio?",
+      "image": "images/rabbit.webp",
+      "audio_en": "audio/en/rabbit.mp3",
+      "audio_it": "audio/it/rabbit.mp3"
+    },
+    {
+      "key": "mouse",
+      "en": "mouse",
+      "it": "topo",
+      "prompt_en": "Where's the mouse?",
+      "prompt_it": "Dov'è il topo?",
+      "image": "images/mouse.webp",
+      "audio_en": "audio/en/mouse.mp3",
+      "audio_it": "audio/it/mouse.mp3"
+    },
+    {
+      "key": "fox",
+      "en": "fox",
+      "it": "volpe",
+      "prompt_en": "Where's the fox?",
+      "prompt_it": "Dov'è la volpe?",
+      "image": "images/fox.webp",
+      "audio_en": "audio/en/fox.mp3",
+      "audio_it": "audio/it/fox.mp3"
+    },
+    {
+      "key": "bear",
+      "en": "bear",
+      "it": "orso",
+      "prompt_en": "Where's the bear?",
+      "prompt_it": "Dov'è l'orso?",
+      "image": "images/bear.webp",
+      "audio_en": "audio/en/bear.mp3",
+      "audio_it": "audio/it/bear.mp3"
+    },
+    {
+      "key": "panda",
+      "en": "panda",
+      "it": "panda",
+      "prompt_en": "Where's the panda?",
+      "prompt_it": "Dov'è il panda?",
+      "image": "images/panda.webp",
+      "audio_en": "audio/en/panda.mp3",
+      "audio_it": "audio/it/panda.mp3"
+    },
+    {
+      "key": "frog",
+      "en": "frog",
+      "it": "rana",
+      "prompt_en": "Where's the frog?",
+      "prompt_it": "Dov'è la rana?",
+      "image": "images/frog.webp",
+      "audio_en": "audio/en/frog.mp3",
+      "audio_it": "audio/it/frog.mp3"
+    },
+    {
+      "key": "duck",
+      "en": "duck",
+      "it": "anatra",
+      "prompt_en": "Where's the duck?",
+      "prompt_it": "Dov'è l'anatra?",
+      "image": "images/duck.webp",
+      "audio_en": "audio/en/duck.mp3",
+      "audio_it": "audio/it/duck.mp3"
+    },
+    {
+      "key": "chicken",
+      "en": "chicken",
+      "it": "gallina",
+      "prompt_en": "Where's the chicken?",
+      "prompt_it": "Dov'è la gallina?",
+      "image": "images/chicken.webp",
+      "audio_en": "audio/en/chicken.mp3",
+      "audio_it": "audio/it/chicken.mp3"
+    },
+    {
+      "key": "owl",
+      "en": "owl",
+      "it": "gufo",
+      "prompt_en": "Where's the owl?",
+      "prompt_it": "Dov'è il gufo?",
+      "image": "images/owl.webp",
+      "audio_en": "audio/en/owl.mp3",
+      "audio_it": "audio/it/owl.mp3"
+    },
+    {
+      "key": "penguin",
+      "en": "penguin",
+      "it": "pinguino",
+      "prompt_en": "Where's the penguin?",
+      "prompt_it": "Dov'è il pinguino?",
+      "image": "images/penguin.webp",
+      "audio_en": "audio/en/penguin.mp3",
+      "audio_it": "audio/it/penguin.mp3"
+    },
+    {
+      "key": "fish",
+      "en": "fish",
+      "it": "pesce",
+      "prompt_en": "Where's the fish?",
+      "prompt_it": "Dov'è il pesce?",
+      "image": "images/fish.webp",
+      "audio_en": "audio/en/fish.mp3",
+      "audio_it": "audio/it/fish.mp3"
+    },
+    {
+      "key": "whale",
+      "en": "whale",
+      "it": "balena",
+      "prompt_en": "Where's the whale?",
+      "prompt_it": "Dov'è la balena?",
+      "image": "images/whale.webp",
+      "audio_en": "audio/en/whale.mp3",
+      "audio_it": "audio/it/whale.mp3"
+    },
+    {
+      "key": "turtle",
+      "en": "turtle",
+      "it": "tartaruga",
+      "prompt_en": "Where's the turtle?",
+      "prompt_it": "Dov'è la tartaruga?",
+      "image": "images/turtle.webp",
+      "audio_en": "audio/en/turtle.mp3",
+      "audio_it": "audio/it/turtle.mp3"
+    },
+    {
+      "key": "crocodile",
+      "en": "crocodile",
+      "it": "coccodrillo",
+      "prompt_en": "Where's the crocodile?",
+      "prompt_it": "Dov'è il coccodrillo?",
+      "image": "images/crocodile.webp",
+      "audio_en": "audio/en/crocodile.mp3",
+      "audio_it": "audio/it/crocodile.mp3"
+    },
+    {
+      "key": "snake",
+      "en": "snake",
+      "it": "serpente",
+      "prompt_en": "Where's the snake?",
+      "prompt_it": "Dov'è il serpente?",
+      "image": "images/snake.webp",
+      "audio_en": "audio/en/snake.mp3",
+      "audio_it": "audio/it/snake.mp3"
+    },
+    {
+      "key": "butterfly",
+      "en": "butterfly",
+      "it": "farfalla",
+      "prompt_en": "Where's the butterfly?",
+      "prompt_it": "Dov'è la farfalla?",
+      "image": "images/butterfly.webp",
+      "audio_en": "audio/en/butterfly.mp3",
+      "audio_it": "audio/it/butterfly.mp3"
+    },
+    {
+      "key": "bee",
+      "en": "bee",
+      "it": "ape",
+      "prompt_en": "Where's the bee?",
+      "prompt_it": "Dov'è l'ape?",
+      "image": "images/bee.webp",
+      "audio_en": "audio/en/bee.mp3",
+      "audio_it": "audio/it/bee.mp3"
+    },
+    {
+      "key": "sheep",
+      "en": "sheep",
+      "it": "pecora",
+      "prompt_en": "Where's the sheep?",
+      "prompt_it": "Dov'è la pecora?",
+      "image": "images/sheep.webp",
+      "audio_en": "audio/en/sheep.mp3",
+      "audio_it": "audio/it/sheep.mp3"
+    },
+    {
+      "key": "goat",
+      "en": "goat",
+      "it": "capra",
+      "prompt_en": "Where's the goat?",
+      "prompt_it": "Dov'è la capra?",
+      "image": "images/goat.webp",
+      "audio_en": "audio/en/goat.mp3",
+      "audio_it": "audio/it/goat.mp3"
+    },
+    {
+      "key": "deer",
+      "en": "deer",
+      "it": "cervo",
+      "prompt_en": "Where's the deer?",
+      "prompt_it": "Dov'è il cervo?",
+      "image": "images/deer.webp",
+      "audio_en": "audio/en/deer.mp3",
+      "audio_it": "audio/it/deer.mp3"
+    },
+    {
+      "key": "camel",
+      "en": "camel",
+      "it": "cammello",
+      "prompt_en": "Where's the camel?",
+      "prompt_it": "Dov'è il cammello?",
+      "image": "images/camel.webp",
+      "audio_en": "audio/en/camel.mp3",
+      "audio_it": "audio/it/camel.mp3"
+    },
+    {
+      "key": "llama",
+      "en": "llama",
+      "it": "lama",
+      "prompt_en": "Where's the llama?",
+      "prompt_it": "Dov'è il lama?",
+      "image": "images/llama.webp",
+      "audio_en": "audio/en/llama.mp3",
+      "audio_it": "audio/it/llama.mp3"
+    },
+    {
+      "key": "koala",
+      "en": "koala",
+      "it": "koala",
+      "prompt_en": "Where's the koala?",
+      "prompt_it": "Dov'è il koala?",
+      "image": "images/koala.webp",
+      "audio_en": "audio/en/koala.mp3",
+      "audio_it": "audio/it/koala.mp3"
+    },
+    {
+      "key": "kangaroo",
+      "en": "kangaroo",
+      "it": "canguro",
+      "prompt_en": "Where's the kangaroo?",
+      "prompt_it": "Dov'è il canguro?",
+      "image": "images/kangaroo.webp",
+      "audio_en": "audio/en/kangaroo.mp3",
+      "audio_it": "audio/it/kangaroo.mp3"
+    },
+    {
+      "key": "gorilla",
+      "en": "gorilla",
+      "it": "gorilla",
+      "prompt_en": "Where's the gorilla?",
+      "prompt_it": "Dov'è il gorilla?",
+      "image": "images/gorilla.webp",
+      "audio_en": "audio/en/gorilla.mp3",
+      "audio_it": "audio/it/gorilla.mp3"
+    },
+    {
+      "key": "hippo",
+      "en": "hippo",
+      "it": "ippopotamo",
+      "prompt_en": "Where's the hippo?",
+      "prompt_it": "Dov'è l'ippopotamo?",
+      "image": "images/hippo.webp",
+      "audio_en": "audio/en/hippo.mp3",
+      "audio_it": "audio/it/hippo.mp3"
+    },
+    {
+      "key": "rhino",
+      "en": "rhino",
+      "it": "rinoceronte",
+      "prompt_en": "Where's the rhino?",
+      "prompt_it": "Dov'è il rinoceronte?",
+      "image": "images/rhino.webp",
+      "audio_en": "audio/en/rhino.mp3",
+      "audio_it": "audio/it/rhino.mp3"
+    },
+    {
+      "key": "dolphin",
+      "en": "dolphin",
+      "it": "delfino",
+      "prompt_en": "Where's the dolphin?",
+      "prompt_it": "Dov'è il delfino?",
+      "image": "images/dolphin.webp",
+      "audio_en": "audio/en/dolphin.mp3",
+      "audio_it": "audio/it/dolphin.mp3"
+    },
+    {
+      "key": "octopus",
+      "en": "octopus",
+      "it": "polpo",
+      "prompt_en": "Where's the octopus?",
+      "prompt_it": "Dov'è il polpo?",
+      "image": "images/octopus.webp",
+      "audio_en": "audio/en/octopus.mp3",
+      "audio_it": "audio/it/octopus.mp3"
+    },
+    {
+      "key": "crab",
+      "en": "crab",
+      "it": "granchio",
+      "prompt_en": "Where's the crab?",
+      "prompt_it": "Dov'è il granchio?",
+      "image": "images/crab.webp",
+      "audio_en": "audio/en/crab.mp3",
+      "audio_it": "audio/it/crab.mp3"
+    },
+    {
+      "key": "seal",
+      "en": "seal",
+      "it": "foca",
+      "prompt_en": "Where's the seal?",
+      "prompt_it": "Dov'è la foca?",
+      "image": "images/seal.webp",
+      "audio_en": "audio/en/seal.mp3",
+      "audio_it": "audio/it/seal.mp3"
+    },
+    {
+      "key": "parrot",
+      "en": "parrot",
+      "it": "pappagallo",
+      "prompt_en": "Where's the parrot?",
+      "prompt_it": "Dov'è il pappagallo?",
+      "image": "images/parrot.webp",
+      "audio_en": "audio/en/parrot.mp3",
+      "audio_it": "audio/it/parrot.mp3"
+    },
+    {
+      "key": "peacock",
+      "en": "peacock",
+      "it": "pavone",
+      "prompt_en": "Where's the peacock?",
+      "prompt_it": "Dov'è il pavone?",
+      "image": "images/peacock.webp",
+      "audio_en": "audio/en/peacock.mp3",
+      "audio_it": "audio/it/peacock.mp3"
+    },
+    {
+      "key": "flamingo",
+      "en": "flamingo",
+      "it": "fenicottero",
+      "prompt_en": "Where's the flamingo?",
+      "prompt_it": "Dov'è il fenicottero?",
+      "image": "images/flamingo.webp",
+      "audio_en": "audio/en/flamingo.mp3",
+      "audio_it": "audio/it/flamingo.mp3"
+    },
+    {
+      "key": "swan",
+      "en": "swan",
+      "it": "cigno",
+      "prompt_en": "Where's the swan?",
+      "prompt_it": "Dov'è il cigno?",
+      "image": "images/swan.webp",
+      "audio_en": "audio/en/swan.mp3",
+      "audio_it": "audio/it/swan.mp3"
+    },
+    {
+      "key": "bat",
+      "en": "bat",
+      "it": "pipistrello",
+      "prompt_en": "Where's the bat?",
+      "prompt_it": "Dov'è il pipistrello?",
+      "image": "images/bat.webp",
+      "audio_en": "audio/en/bat.mp3",
+      "audio_it": "audio/it/bat.mp3"
+    },
+    {
+      "key": "hedgehog",
+      "en": "hedgehog",
+      "it": "riccio",
+      "prompt_en": "Where's the hedgehog?",
+      "prompt_it": "Dov'è il riccio?",
+      "image": "images/hedgehog.webp",
+      "audio_en": "audio/en/hedgehog.mp3",
+      "audio_it": "audio/it/hedgehog.mp3"
+    },
+    {
+      "key": "snail",
+      "en": "snail",
+      "it": "lumaca",
+      "prompt_en": "Where's the snail?",
+      "prompt_it": "Dov'è la lumaca?",
+      "image": "images/snail.webp",
+      "audio_en": "audio/en/snail.mp3",
+      "audio_it": "audio/it/snail.mp3"
+    },
+    {
+      "key": "ladybird",
+      "en": "ladybird",
+      "it": "coccinella",
+      "prompt_en": "Where's the ladybird?",
+      "prompt_it": "Dov'è la coccinella?",
+      "image": "images/ladybird.webp",
+      "audio_en": "audio/en/ladybird.mp3",
+      "audio_it": "audio/it/ladybird.mp3"
+    },
+    {
+      "key": "ant",
+      "en": "ant",
+      "it": "formica",
+      "prompt_en": "Where's the ant?",
+      "prompt_it": "Dov'è la formica?",
+      "image": "images/ant.webp",
+      "audio_en": "audio/en/ant.mp3",
+      "audio_it": "audio/it/ant.mp3"
+    },
+    {
+      "key": "lobster",
+      "en": "lobster",
+      "it": "aragosta",
+      "prompt_en": "Where's the lobster?",
+      "prompt_it": "Dov'è l'aragosta?",
+      "image": "images/lobster.webp",
+      "audio_en": "audio/en/lobster.mp3",
+      "audio_it": "audio/it/lobster.mp3"
+    }
+  ],
+  "shared": {
+    "no_no_en": "audio/en/no-no.mp3",
+    "no_no_it": "audio/it/no-no.mp3",
+    "praise": [
+      "audio/it/brava-1.mp3",
+      "audio/it/brava-2.mp3",
+      "audio/it/brava-3.mp3",
+      "audio/it/brava-4.mp3",
+      "audio/it/brava-5.mp3",
+      "audio/it/brava-6.mp3"
+    ]
+  },
+  "ai_generated_voice": true
+}

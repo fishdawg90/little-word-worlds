@@ -1,0 +1,1 @@
+{"name":"little-word-worlds","version":"1.0.0","private":true,"type":"module","scripts":{"studio":"node studio/server.mjs","test":"node --test tests/*.test.mjs","package":"node tools/package.mjs"},"dependencies":{"ws":"^8.18.3"}}

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#fff7e8">
+<title>Find the Animal! Bilingual</title>
+<link rel="stylesheet" href="shared/styles.css">
+</head>
+<body>
+<main class="app" aria-label="Find the animal game">
+  <div class="topbar">
+    <button class="icon-button" id="repeatBtn" type="button" aria-label="Repeat question" title="Repeat">🔊</button>
+    <div class="prompt" aria-live="polite">
+      <div class="prompt-small" id="promptSmall">Find the animal</div>
+      <div class="prompt-text" id="promptText">Where’s the zebra?</div>
+      <div class="subline" id="progressText">52 animals to find</div>
+    </div>
+    <button class="icon-button" id="resetBtn" type="button" aria-label="Start a new session" title="Start over">↻</button>
+  </div>
+  <section class="grid" id="animalGrid" aria-label="Animal choices"></section>
+  <div class="feedback" id="feedback" aria-hidden="true"></div>
+</main>
+
+<div class="session-finish" id="sessionFinish" aria-hidden="true">
+  <div class="session-finish-inner"><span class="big">🎉🦓🐘🐻🎉</span><span id="finishText">You found them all!</span></div>
+</div>
+
+<div class="start-screen" id="startScreen">
+  <div class="start-inner">
+    <div class="start-animals" aria-hidden="true">🦓 🐘 🐻</div>
+    <h1 id="startTitle">Find the Animal!</h1>
+    <p class="start-copy" id="startCopy">Listen to the question, then tap the right animal. Every animal gets its turn before any question repeats.</p>
+
+    <div class="lang-row">
+      <button class="lang-pill active" id="langEnBtn" type="button">English</button>
+      <button class="lang-pill" id="langItBtn" type="button">Italiano</button>
+    </div>
+
+    <div class="count-row">
+      <button class="count-pill active" id="count4Btn" type="button">4 animals</button>
+      <button class="count-pill" id="count6Btn" type="button">6 animals</button>
+    </div>
+
+    <button class="start-button" id="startBtn" type="button">PLAY</button>
+
+    <div class="pack-status" id="packStatus">Loading vocabulary pack…</div>
+    <div class="notice" id="noticeBox">Italian mode is ready with your embedded Fable voice pack, and Brava variants are already built in.</div>
+
+    <div class="tiny" id="tinyText">AI-generated recordings · English &amp; Italiano</div><a class="pack-link" href="./">Choose another pack</a>
+  </div>
+</div>
+
+<script src="shared/game.js"></script>
+</body></html>
