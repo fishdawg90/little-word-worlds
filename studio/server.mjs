@@ -53,7 +53,7 @@ export function createServer(){return http.createServer(async(req,res)=>{
       if(!key)throw Error('Enter your OpenAI API key first.');
       let result;
       if(url.pathname==='/api/names'){
-        const count=Number(b.count);if(!Number.isInteger(count)||count<4||count>52)throw Error('Choose 4–52 items');
+        const existing=Array.isArray(b.existingItems)?b.existingItems:[];const count=Number(b.count);if(!Number.isInteger(count)||count<(existing.length>=4?1:4)||count>52||existing.length+count>200)throw Error('Suggest 1–52 additions, up to 200 words per pack (new packs need at least 4).');
         if(typeof b.topic!=='string'||!b.topic.trim()||b.topic.length>300)throw Error('Enter a topic (maximum 300 characters).');
         const c=await catalog();
         if(Array.isArray(b.catalog?.packs)){
@@ -61,11 +61,11 @@ export function createServer(){return http.createServer(async(req,res)=>{
           for(const p of b.catalog.packs)if(typeof p.id==='string'&&Array.isArray(p.items)&&!merged.has(p.id))merged.set(p.id,p);
           c.packs=[...merged.values()];
         }
-        const avoid=c.packs.flatMap(p=>p.items.flatMap(i=>[i.en,i.it,...(i.aliases||[])]));
+        const comparison={packs:c.packs.filter(p=>p.id!==b.excludePackId)};if(existing.length)validateItems(existing,comparison);const avoid=[...comparison.packs.flatMap(p=>p.items),...existing].flatMap(i=>[i.en,i.it,...(i.aliases||[])]);
         const prompt=`Create exactly ${count} distinct, easily pictured vocabulary items about ${JSON.stringify(b.topic)} for a toddler learning English and Italian. Exclude these existing names AND their synonyms: ${JSON.stringify(avoid)}. Use singular nouns where natural, correct Italian articles in full questions, and visually unambiguous items. Return ONLY JSON with an items array of objects with key (English lowercase hyphenated ID), en, it, prompt_en, prompt_it, aliases (array of common English and Italian synonyms, include plurals if useful). English question: Where is the ...? Italian: Dov'è ...? No markup.`;
         const r=await api(key,'responses',{model:b.model||'gpt-6-luna',input:prompt,text:{format:{type:'json_object'}}});
         const data=await r.json();const out=data.output?.flatMap(o=>o.content||[]).filter(x=>x.type==='output_text').map(x=>x.text).join('');
-        const parsed=JSON.parse(out);validateItems(parsed.items,c);if(parsed.items.length!==count)throw Error('The model returned a different item count. Try again or edit the list.');
+        const parsed=JSON.parse(out);validateItems([...existing,...parsed.items],comparison);if(parsed.items.length!==count)throw Error('The model returned a different item count. Try again or edit the list.');
         result={items:parsed.items,catalog:c};
       }else if(url.pathname==='/api/image'){
         if(typeof b.prompt!=='string'||!b.prompt.trim()||b.prompt.length>16000)throw Error('Invalid image prompt');
@@ -82,7 +82,7 @@ export function createServer(){return http.createServer(async(req,res)=>{
     if(url.pathname==='/api/catalog'){res.setHeader('Content-Type','application/json');return res.end(JSON.stringify(await catalog()));}
     const name=url.pathname==='/'?'/studio/pack-studio.html':decodeURIComponent(url.pathname);
     // Only serve game, studio UI, catalogue and pack media. Never expose arbitrary local files.
-    if(!(name==='/index.html'||name==='/game.html'||['/studio/pack-studio.html','/studio/core.mjs','/studio/zip.mjs','/studio/generation-session.mjs'].includes(name)||/^\/(?:shared|packs)\/[a-zA-Z0-9/_.-]+$/.test(name))) {res.writeHead(404);return res.end('Not found');}
+    if(!(name==='/index.html'||name==='/game.html'||['/studio/pack-studio.html','/studio/core.mjs','/studio/zip.mjs','/studio/generation-session.mjs','/studio/pack-authoring.mjs','/studio/pack-editor.mjs'].includes(name)||/^\/(?:shared|packs)\/[a-zA-Z0-9/_.-]+$/.test(name))) {res.writeHead(404);return res.end('Not found');}
     const target=path.resolve(root,'.'+name);if(!target.startsWith(root+path.sep))throw Error('Invalid path');
     const data=await fs.readFile(target);const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.json':'application/json','.webp':'image/webp','.mp3':'audio/mpeg','.wav':'audio/wav'}[path.extname(target)]||'application/octet-stream';
     res.setHeader('Content-Type',mime);res.end(data);

@@ -8,7 +8,7 @@ Animals: https://fishdawg90.github.io/little-word-worlds/game.html?pack=animals
 
 ## Import packs directly into the game
 
-Open the game homepage and choose **Import a pack**, then select a finished `.pack.json` exported by Pack Studio. The file and embedded media are validated and saved in IndexedDB; a new card appears in the chooser. No OpenAI key or generation calls are needed to import or play. Duplicate IDs and existing vocabulary/aliases are rejected. Only pack content and media are stored; authoring settings are discarded.
+Open the game homepage and choose **Import a pack**, then select a finished `.pack.json` exported by Pack Studio. The file and embedded media are validated and saved in IndexedDB; a new card appears in the chooser. No OpenAI key or generation calls are needed to import or play. Duplicate IDs and existing vocabulary/aliases are rejected. Pack content, media and whitelisted authoring settings are stored; API keys and unknown credential fields are excluded.
 
 Imported packs stay in that browser on that device and are not uploaded to GitHub. To play on another device, import the file there too. A `game.html?local=PACK-ID` link only works after that pack has been imported into the receiving browser. Keep the original pack file because clearing browser data removes saved packs. To make a pack available to everyone, use the repository import workflow below and publish it.
 
@@ -39,6 +39,18 @@ The studio refreshes the deployed catalogue before suggesting, generating or exp
 Speech defaults to `gpt-realtime-2.1-mini`, with 24 kHz WAV output and transcripts for review. Realtime is instructed to read exactly the supplied question; listen to ensure it does so. The compatibility option `gpt-4o-mini-tts` exports MP3 and includes Fable. OpenAI currently schedules the legacy Speech API's shutdown for 6 January 2027. Your existing recordings keep working regardless. Model access, pricing and voice availability depend on your API project. Image defaults are `gpt-image-2.5-flare`, 1024px, low quality; both the model and quality are editable.
 
 ## Import and publish
+
+### Extend a pack
+
+Pack Studio can load a published pack directly or open an exported JSON/ZIP. **Suggest extra vocabulary** appends words, keeps original items protected, and avoids duplicates across the list and other packs. **Generate missing images & voices** only makes missing assets. Packs support up to 200 words, with up to 52 suggestions per batch. Authoring prompts and settings are stored in `pack.authoring`; each item's `generation` records the actual image/audio settings. Unknown credentials or settings fields are filtered out during import. The original Animals illustration prompt is unavailable; known voice settings are preserved, and Fruit & Vegetables includes recovered original generation settings.
+
+To publish an extended pack while preserving its link:
+
+```powershell
+node tools/import-pack.mjs C:/path/to/extended.pack.json --update
+```
+
+The update requires matching source-pack metadata and verifies that every current original word, question and media file is unchanged. New words can be appended; stale extensions missing someone else's published additions are rejected. The previous directory is backed up under ignored `test-output/pack-backups`. Browser imports accept marked extensions too, replacing a previous local copy or offering a local extension of a published pack. Local extensions stay on that device until published.
 
 ```powershell
 node tools/import-pack.mjs C:/path/to/fruit.pack.json

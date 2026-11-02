@@ -19,7 +19,28 @@
       "aliases": [],
       "image": "images/apple.webp",
       "audio_en": "audio/en/apple.wav",
-      "audio_it": "audio/it/apple.wav"
+      "audio_it": "audio/it/apple.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single apple, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the apple?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la mela?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "banana",
@@ -30,7 +51,28 @@
       "aliases": [],
       "image": "images/banana.webp",
       "audio_en": "audio/en/banana.wav",
-      "audio_it": "audio/it/banana.wav"
+      "audio_it": "audio/it/banana.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single banana, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the banana?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la banana?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "orange",
@@ -41,7 +83,28 @@
       "aliases": [],
       "image": "images/orange.webp",
       "audio_en": "audio/en/orange.wav",
-      "audio_it": "audio/it/orange.wav"
+      "audio_it": "audio/it/orange.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single orange, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the orange?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'arancia?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "pear",
@@ -52,7 +115,28 @@
       "aliases": [],
       "image": "images/pear.webp",
       "audio_en": "audio/en/pear.wav",
-      "audio_it": "audio/it/pear.wav"
+      "audio_it": "audio/it/pear.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single pear, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the pear?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la pera?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "strawberry",
@@ -63,7 +147,28 @@
       "aliases": [],
       "image": "images/strawberry.webp",
       "audio_en": "audio/en/strawberry.wav",
-      "audio_it": "audio/it/strawberry.wav"
+      "audio_it": "audio/it/strawberry.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single strawberry, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the strawberry?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la fragola?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "watermelon",
@@ -76,7 +181,28 @@
       ],
       "image": "images/watermelon.webp",
       "audio_en": "audio/en/watermelon.wav",
-      "audio_it": "audio/it/watermelon.wav"
+      "audio_it": "audio/it/watermelon.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single watermelon, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the watermelon?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'anguria?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "pineapple",
@@ -87,7 +213,28 @@
       "aliases": [],
       "image": "images/pineapple.webp",
       "audio_en": "audio/en/pineapple.wav",
-      "audio_it": "audio/it/pineapple.wav"
+      "audio_it": "audio/it/pineapple.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single pineapple, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the pineapple?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'ananas?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "lemon",
@@ -98,7 +245,28 @@
       "aliases": [],
       "image": "images/lemon.webp",
       "audio_en": "audio/en/lemon.wav",
-      "audio_it": "audio/it/lemon.wav"
+      "audio_it": "audio/it/lemon.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single lemon, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the lemon?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il limone?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "peach",
@@ -109,7 +277,28 @@
       "aliases": [],
       "image": "images/peach.webp",
       "audio_en": "audio/en/peach.wav",
-      "audio_it": "audio/it/peach.wav"
+      "audio_it": "audio/it/peach.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single peach, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the peach?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la pesca?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "cherry",
@@ -120,7 +309,28 @@
       "aliases": [],
       "image": "images/cherry.webp",
       "audio_en": "audio/en/cherry.wav",
-      "audio_it": "audio/it/cherry.wav"
+      "audio_it": "audio/it/cherry.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single cherry, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the cherry?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la ciliegia?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "grape",
@@ -131,7 +341,28 @@
       "aliases": [],
       "image": "images/grape.webp",
       "audio_en": "audio/en/grape.wav",
-      "audio_it": "audio/it/grape.wav"
+      "audio_it": "audio/it/grape.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single grape, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the grape?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'uva?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "blueberry",
@@ -142,7 +373,28 @@
       "aliases": [],
       "image": "images/blueberry.webp",
       "audio_en": "audio/en/blueberry.wav",
-      "audio_it": "audio/it/blueberry.wav"
+      "audio_it": "audio/it/blueberry.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single blueberry, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the blueberry?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il mirtillo?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "kiwi",
@@ -155,7 +407,28 @@
       ],
       "image": "images/kiwi.webp",
       "audio_en": "audio/en/kiwi.wav",
-      "audio_it": "audio/it/kiwi.wav"
+      "audio_it": "audio/it/kiwi.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single kiwi, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the kiwi?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il kiwi?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "mango",
@@ -166,7 +439,28 @@
       "aliases": [],
       "image": "images/mango.webp",
       "audio_en": "audio/en/mango.wav",
-      "audio_it": "audio/it/mango.wav"
+      "audio_it": "audio/it/mango.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single mango, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the mango?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il mango?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "avocado",
@@ -177,7 +471,28 @@
       "aliases": [],
       "image": "images/avocado.webp",
       "audio_en": "audio/en/avocado.wav",
-      "audio_it": "audio/it/avocado.wav"
+      "audio_it": "audio/it/avocado.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single avocado, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the avocado?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'avocado?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "plum",
@@ -188,7 +503,28 @@
       "aliases": [],
       "image": "images/plum.webp",
       "audio_en": "audio/en/plum.wav",
-      "audio_it": "audio/it/plum.wav"
+      "audio_it": "audio/it/plum.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single plum, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the plum?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la prugna?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "coconut",
@@ -199,7 +535,28 @@
       "aliases": [],
       "image": "images/coconut.webp",
       "audio_en": "audio/en/coconut.wav",
-      "audio_it": "audio/it/coconut.wav"
+      "audio_it": "audio/it/coconut.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single coconut, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the coconut?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la noce di cocco?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "carrot",
@@ -210,7 +567,28 @@
       "aliases": [],
       "image": "images/carrot.webp",
       "audio_en": "audio/en/carrot.wav",
-      "audio_it": "audio/it/carrot.wav"
+      "audio_it": "audio/it/carrot.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single carrot, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the carrot?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la carota?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "tomato",
@@ -221,7 +599,28 @@
       "aliases": [],
       "image": "images/tomato.webp",
       "audio_en": "audio/en/tomato.wav",
-      "audio_it": "audio/it/tomato.wav"
+      "audio_it": "audio/it/tomato.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single tomato, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the tomato?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il pomodoro?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "cucumber",
@@ -232,7 +631,28 @@
       "aliases": [],
       "image": "images/cucumber.webp",
       "audio_en": "audio/en/cucumber.wav",
-      "audio_it": "audio/it/cucumber.wav"
+      "audio_it": "audio/it/cucumber.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single cucumber, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the cucumber?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il cetriolo?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "potato",
@@ -243,7 +663,28 @@
       "aliases": [],
       "image": "images/potato.webp",
       "audio_en": "audio/en/potato.wav",
-      "audio_it": "audio/it/potato.wav"
+      "audio_it": "audio/it/potato.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single potato, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the potato?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la patata?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "corn-cob",
@@ -256,7 +697,28 @@
       ],
       "image": "images/corn-cob.webp",
       "audio_en": "audio/en/corn-cob.wav",
-      "audio_it": "audio/it/corn-cob.wav"
+      "audio_it": "audio/it/corn-cob.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single corn cob, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the corn cob?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il mais?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "bell-pepper",
@@ -269,7 +731,28 @@
       ],
       "image": "images/bell-pepper.webp",
       "audio_en": "audio/en/bell-pepper.wav",
-      "audio_it": "audio/it/bell-pepper.wav"
+      "audio_it": "audio/it/bell-pepper.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single bell pepper, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the bell pepper?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il peperone?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     },
     {
       "key": "cauliflower",
@@ -280,7 +763,28 @@
       "aliases": [],
       "image": "images/cauliflower.webp",
       "audio_en": "audio/en/cauliflower.wav",
-      "audio_it": "audio/it/cauliflower.wav"
+      "audio_it": "audio/it/cauliflower.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single cauliflower, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the cauliflower?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il cavolfiore?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
     }
   ],
   "shared": {
@@ -292,5 +796,24 @@
       "../animals/audio/it/brava-5.mp3",
       "../animals/audio/it/brava-6.mp3"
     ]
+  },
+  "authoring": {
+    "version": 1,
+    "settings": {
+      "topic": "Fruit and Vegetables",
+      "count": "24",
+      "packId": "fruit-and-vegetables",
+      "emoji": "🍆",
+      "titleEn": "Find the Fruit & Vegetables!",
+      "titleIt": "Trova la frutta e la verdura!",
+      "imagePrompt": "A single {item}, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery.",
+      "quality": "low",
+      "speechModel": "gpt-realtime-2.1-mini",
+      "voiceEn": "sage",
+      "voiceIt": "marin",
+      "voiceInstructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question.",
+      "textModel": "gpt-6-luna",
+      "imageModel": "gpt-image-2.5-flare"
+    }
   }
 }

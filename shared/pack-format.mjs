@@ -1,4 +1,5 @@
 import {validateItems,validatePackId} from '../studio/core.mjs';
+import {cleanAuthoring,cleanGeneration} from '../studio/pack-authoring.mjs';
 // Shared by the browser importer and repository importer. No code or remote asset URLs are accepted.
 export function validateBundle(b,catalog){
   if(b?.format!=='vocabulary-pack-bundle'||b.version!==1||b.ready!==true)throw Error('Choose a finished .pack.json exported from Pack Studio, rather than a draft.');
@@ -22,5 +23,5 @@ export function validateBundle(b,catalog){
 }
 export function sanitizeBundle(b){
   const p=b.pack;
-  return {format:'vocabulary-pack-bundle',version:1,ready:true,pack:{format:'vocabulary-pack',version:1,id:p.id,title:{en:p.title.en,it:p.title.it},topic:String(p.topic||'').slice(0,300),emoji:String(p.emoji||'🌟').slice(0,40),ai_generated_voice:true,items:p.items.map(i=>({key:i.key,en:i.en,it:i.it,prompt_en:i.prompt_en,prompt_it:i.prompt_it,aliases:Array.isArray(i.aliases)?i.aliases:[],image:i.image,audio_en:i.audio_en,audio_it:i.audio_it})),shared:{}},files:Object.fromEntries(Object.entries(b.files).map(([n,f])=>[n,{mime:f.mime,base64:f.base64}]))};
+  return {format:'vocabulary-pack-bundle',version:1,ready:true,pack:{format:'vocabulary-pack',version:1,id:p.id,title:{en:p.title.en,it:p.title.it},topic:String(p.topic||'').slice(0,300),emoji:String(p.emoji||'🌟').slice(0,40),ai_generated_voice:true,authoring:cleanAuthoring(p.authoring||{settings:b.settings}),items:p.items.map(i=>({key:i.key,en:i.en,it:i.it,prompt_en:i.prompt_en,prompt_it:i.prompt_it,aliases:Array.isArray(i.aliases)?i.aliases:[],image:i.image,audio_en:i.audio_en,audio_it:i.audio_it,generation:Object.fromEntries(['image','audio_en','audio_it'].map(k=>[k,cleanGeneration(i.generation?.[k]||b.files[i[k]]?.generation)]))})),shared:{}},files:Object.fromEntries(Object.entries(b.files).map(([n,f])=>[n,{mime:f.mime,base64:f.base64,generation:cleanGeneration(f.generation)}]))};
 }

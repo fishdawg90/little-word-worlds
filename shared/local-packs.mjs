@@ -7,9 +7,12 @@ export async function localPackCover(id){const b=await transact('readonly',s=>s.
 export async function importLocalPack(file,catalog){
   if(!file||file.size>350*1024*1024)throw Error('Choose a pack file smaller than 350 MB.');
   let b;try{b=JSON.parse(await file.text())}catch{throw Error('Could not read this JSON file. Choose the .pack.json exported by Pack Studio.');}
-  const existing=await listLocalPacks();validateBundle(b,{packs:[...catalog.packs,...existing]});const clean=sanitizeBundle(b);
-  // add() also prevents a simultaneous import in another tab from overwriting a pack.
-  await transact('readwrite',s=>s.add(clean));return clean.pack;
+  const existing=await listLocalPacks(),extension=b.pack?.authoring?.source?.id===b.pack?.id;
+  const references=[...catalog.packs,...existing];
+  if(extension)for(const previous of references.filter(p=>p.id===b.pack.id))for(const old of previous.items){const next=b.pack.items.find(i=>i.key===old.key);if(!next||next.en!==old.en||next.it!==old.it)throw Error('This extension must keep the original words. Load the latest pack in Pack Studio first.');}
+  validateBundle(b,{packs:references.filter(p=>!(extension&&p.id===b.pack.id))});const clean=sanitizeBundle(b);
+  // New IDs use add(); an explicitly marked extension can replace its previous local copy.
+  await transact('readwrite',s=>extension?s.put(clean):s.add(clean));return clean.pack;
 }
 export async function loadLocalPack(id){
   const b=await transact('readonly',s=>s.get(id));if(!b)throw Error('This pack is not saved in this browser. Return to the pack chooser and import its .pack.json file here.');

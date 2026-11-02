@@ -10,3 +10,5 @@ tools/publish.mjs
 hosted-studio/
 tools/build-hosted-studio.mjs
 tools/update-studio-completion.cjs
+tools/update-studio-extension.cjs
+tools/backfill-pack-authoring.mjs

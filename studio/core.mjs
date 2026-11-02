@@ -1,7 +1,7 @@
 export const normalize=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 export const slug=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 export function validateItems(items,catalog){
-  if(!Array.isArray(items)||items.length<4||items.length>52)throw Error('Use 4–52 items.');
+  if(!Array.isArray(items)||items.length<4||items.length>200)throw Error('Use 4–200 items.');
   const used=new Set((catalog.packs||[]).flatMap(p=>p.items.flatMap(i=>[i.key,i.en,i.it,...(i.aliases||[])])).map(normalize));
   const seen=new Set();
   for(const a of items){

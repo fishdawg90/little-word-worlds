@@ -17,7 +17,21 @@
       "prompt_it": "Dov'è la zebra?",
       "image": "images/zebra.webp",
       "audio_en": "audio/en/zebra.mp3",
-      "audio_it": "audio/it/zebra.mp3"
+      "audio_it": "audio/it/zebra.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the zebra?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la zebra?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "elephant",
@@ -27,7 +41,21 @@
       "prompt_it": "Dov'è l'elefante?",
       "image": "images/elephant.webp",
       "audio_en": "audio/en/elephant.mp3",
-      "audio_it": "audio/it/elephant.mp3"
+      "audio_it": "audio/it/elephant.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the elephant?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è l'elefante?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "lion",
@@ -37,7 +65,21 @@
       "prompt_it": "Dov'è il leone?",
       "image": "images/lion.webp",
       "audio_en": "audio/en/lion.mp3",
-      "audio_it": "audio/it/lion.mp3"
+      "audio_it": "audio/it/lion.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the lion?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il leone?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "tiger",
@@ -47,7 +89,21 @@
       "prompt_it": "Dov'è la tigre?",
       "image": "images/tiger.webp",
       "audio_en": "audio/en/tiger.mp3",
-      "audio_it": "audio/it/tiger.mp3"
+      "audio_it": "audio/it/tiger.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the tiger?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la tigre?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "monkey",
@@ -57,7 +113,21 @@
       "prompt_it": "Dov'è la scimmia?",
       "image": "images/monkey.webp",
       "audio_en": "audio/en/monkey.mp3",
-      "audio_it": "audio/it/monkey.mp3"
+      "audio_it": "audio/it/monkey.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the monkey?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la scimmia?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "giraffe",
@@ -67,7 +137,21 @@
       "prompt_it": "Dov'è la giraffa?",
       "image": "images/giraffe.webp",
       "audio_en": "audio/en/giraffe.mp3",
-      "audio_it": "audio/it/giraffe.mp3"
+      "audio_it": "audio/it/giraffe.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the giraffe?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la giraffa?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "dog",
@@ -77,7 +161,21 @@
       "prompt_it": "Dov'è il cane?",
       "image": "images/dog.webp",
       "audio_en": "audio/en/dog.mp3",
-      "audio_it": "audio/it/dog.mp3"
+      "audio_it": "audio/it/dog.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the dog?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il cane?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "cat",
@@ -87,7 +185,21 @@
       "prompt_it": "Dov'è il gatto?",
       "image": "images/cat.webp",
       "audio_en": "audio/en/cat.mp3",
-      "audio_it": "audio/it/cat.mp3"
+      "audio_it": "audio/it/cat.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the cat?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il gatto?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "cow",
@@ -97,7 +209,21 @@
       "prompt_it": "Dov'è la mucca?",
       "image": "images/cow.webp",
       "audio_en": "audio/en/cow.mp3",
-      "audio_it": "audio/it/cow.mp3"
+      "audio_it": "audio/it/cow.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the cow?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la mucca?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "pig",
@@ -107,7 +233,21 @@
       "prompt_it": "Dov'è il maiale?",
       "image": "images/pig.webp",
       "audio_en": "audio/en/pig.mp3",
-      "audio_it": "audio/it/pig.mp3"
+      "audio_it": "audio/it/pig.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the pig?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il maiale?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "horse",
@@ -117,7 +257,21 @@
       "prompt_it": "Dov'è il cavallo?",
       "image": "images/horse.webp",
       "audio_en": "audio/en/horse.mp3",
-      "audio_it": "audio/it/horse.mp3"
+      "audio_it": "audio/it/horse.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the horse?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il cavallo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "rabbit",
@@ -127,7 +281,21 @@
       "prompt_it": "Dov'è il coniglio?",
       "image": "images/rabbit.webp",
       "audio_en": "audio/en/rabbit.mp3",
-      "audio_it": "audio/it/rabbit.mp3"
+      "audio_it": "audio/it/rabbit.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the rabbit?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il coniglio?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "mouse",
@@ -137,7 +305,21 @@
       "prompt_it": "Dov'è il topo?",
       "image": "images/mouse.webp",
       "audio_en": "audio/en/mouse.mp3",
-      "audio_it": "audio/it/mouse.mp3"
+      "audio_it": "audio/it/mouse.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the mouse?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il topo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "fox",
@@ -147,7 +329,21 @@
       "prompt_it": "Dov'è la volpe?",
       "image": "images/fox.webp",
       "audio_en": "audio/en/fox.mp3",
-      "audio_it": "audio/it/fox.mp3"
+      "audio_it": "audio/it/fox.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the fox?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la volpe?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "bear",
@@ -157,7 +353,21 @@
       "prompt_it": "Dov'è l'orso?",
       "image": "images/bear.webp",
       "audio_en": "audio/en/bear.mp3",
-      "audio_it": "audio/it/bear.mp3"
+      "audio_it": "audio/it/bear.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the bear?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è l'orso?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "panda",
@@ -167,7 +377,21 @@
       "prompt_it": "Dov'è il panda?",
       "image": "images/panda.webp",
       "audio_en": "audio/en/panda.mp3",
-      "audio_it": "audio/it/panda.mp3"
+      "audio_it": "audio/it/panda.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the panda?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il panda?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "frog",
@@ -177,7 +401,21 @@
       "prompt_it": "Dov'è la rana?",
       "image": "images/frog.webp",
       "audio_en": "audio/en/frog.mp3",
-      "audio_it": "audio/it/frog.mp3"
+      "audio_it": "audio/it/frog.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the frog?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la rana?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "duck",
@@ -187,7 +425,21 @@
       "prompt_it": "Dov'è l'anatra?",
       "image": "images/duck.webp",
       "audio_en": "audio/en/duck.mp3",
-      "audio_it": "audio/it/duck.mp3"
+      "audio_it": "audio/it/duck.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the duck?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è l'anatra?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "chicken",
@@ -197,7 +449,21 @@
       "prompt_it": "Dov'è la gallina?",
       "image": "images/chicken.webp",
       "audio_en": "audio/en/chicken.mp3",
-      "audio_it": "audio/it/chicken.mp3"
+      "audio_it": "audio/it/chicken.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the chicken?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la gallina?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "owl",
@@ -207,7 +473,21 @@
       "prompt_it": "Dov'è il gufo?",
       "image": "images/owl.webp",
       "audio_en": "audio/en/owl.mp3",
-      "audio_it": "audio/it/owl.mp3"
+      "audio_it": "audio/it/owl.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the owl?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il gufo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "penguin",
@@ -217,7 +497,21 @@
       "prompt_it": "Dov'è il pinguino?",
       "image": "images/penguin.webp",
       "audio_en": "audio/en/penguin.mp3",
-      "audio_it": "audio/it/penguin.mp3"
+      "audio_it": "audio/it/penguin.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the penguin?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il pinguino?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "fish",
@@ -227,7 +521,21 @@
       "prompt_it": "Dov'è il pesce?",
       "image": "images/fish.webp",
       "audio_en": "audio/en/fish.mp3",
-      "audio_it": "audio/it/fish.mp3"
+      "audio_it": "audio/it/fish.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the fish?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il pesce?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "whale",
@@ -237,7 +545,21 @@
       "prompt_it": "Dov'è la balena?",
       "image": "images/whale.webp",
       "audio_en": "audio/en/whale.mp3",
-      "audio_it": "audio/it/whale.mp3"
+      "audio_it": "audio/it/whale.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the whale?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la balena?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "turtle",
@@ -247,7 +569,21 @@
       "prompt_it": "Dov'è la tartaruga?",
       "image": "images/turtle.webp",
       "audio_en": "audio/en/turtle.mp3",
-      "audio_it": "audio/it/turtle.mp3"
+      "audio_it": "audio/it/turtle.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the turtle?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la tartaruga?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "crocodile",
@@ -257,7 +593,21 @@
       "prompt_it": "Dov'è il coccodrillo?",
       "image": "images/crocodile.webp",
       "audio_en": "audio/en/crocodile.mp3",
-      "audio_it": "audio/it/crocodile.mp3"
+      "audio_it": "audio/it/crocodile.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the crocodile?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il coccodrillo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "snake",
@@ -267,7 +617,21 @@
       "prompt_it": "Dov'è il serpente?",
       "image": "images/snake.webp",
       "audio_en": "audio/en/snake.mp3",
-      "audio_it": "audio/it/snake.mp3"
+      "audio_it": "audio/it/snake.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the snake?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il serpente?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "butterfly",
@@ -277,7 +641,21 @@
       "prompt_it": "Dov'è la farfalla?",
       "image": "images/butterfly.webp",
       "audio_en": "audio/en/butterfly.mp3",
-      "audio_it": "audio/it/butterfly.mp3"
+      "audio_it": "audio/it/butterfly.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the butterfly?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la farfalla?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "bee",
@@ -287,7 +665,21 @@
       "prompt_it": "Dov'è l'ape?",
       "image": "images/bee.webp",
       "audio_en": "audio/en/bee.mp3",
-      "audio_it": "audio/it/bee.mp3"
+      "audio_it": "audio/it/bee.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the bee?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è l'ape?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "sheep",
@@ -297,7 +689,21 @@
       "prompt_it": "Dov'è la pecora?",
       "image": "images/sheep.webp",
       "audio_en": "audio/en/sheep.mp3",
-      "audio_it": "audio/it/sheep.mp3"
+      "audio_it": "audio/it/sheep.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the sheep?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la pecora?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "goat",
@@ -307,7 +713,21 @@
       "prompt_it": "Dov'è la capra?",
       "image": "images/goat.webp",
       "audio_en": "audio/en/goat.mp3",
-      "audio_it": "audio/it/goat.mp3"
+      "audio_it": "audio/it/goat.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the goat?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la capra?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "deer",
@@ -317,7 +737,21 @@
       "prompt_it": "Dov'è il cervo?",
       "image": "images/deer.webp",
       "audio_en": "audio/en/deer.mp3",
-      "audio_it": "audio/it/deer.mp3"
+      "audio_it": "audio/it/deer.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the deer?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il cervo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "camel",
@@ -327,7 +761,21 @@
       "prompt_it": "Dov'è il cammello?",
       "image": "images/camel.webp",
       "audio_en": "audio/en/camel.mp3",
-      "audio_it": "audio/it/camel.mp3"
+      "audio_it": "audio/it/camel.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the camel?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il cammello?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "llama",
@@ -337,7 +785,21 @@
       "prompt_it": "Dov'è il lama?",
       "image": "images/llama.webp",
       "audio_en": "audio/en/llama.mp3",
-      "audio_it": "audio/it/llama.mp3"
+      "audio_it": "audio/it/llama.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the llama?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il lama?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "koala",
@@ -347,7 +809,21 @@
       "prompt_it": "Dov'è il koala?",
       "image": "images/koala.webp",
       "audio_en": "audio/en/koala.mp3",
-      "audio_it": "audio/it/koala.mp3"
+      "audio_it": "audio/it/koala.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the koala?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il koala?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "kangaroo",
@@ -357,7 +833,21 @@
       "prompt_it": "Dov'è il canguro?",
       "image": "images/kangaroo.webp",
       "audio_en": "audio/en/kangaroo.mp3",
-      "audio_it": "audio/it/kangaroo.mp3"
+      "audio_it": "audio/it/kangaroo.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the kangaroo?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il canguro?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "gorilla",
@@ -367,7 +857,21 @@
       "prompt_it": "Dov'è il gorilla?",
       "image": "images/gorilla.webp",
       "audio_en": "audio/en/gorilla.mp3",
-      "audio_it": "audio/it/gorilla.mp3"
+      "audio_it": "audio/it/gorilla.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the gorilla?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il gorilla?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "hippo",
@@ -377,7 +881,21 @@
       "prompt_it": "Dov'è l'ippopotamo?",
       "image": "images/hippo.webp",
       "audio_en": "audio/en/hippo.mp3",
-      "audio_it": "audio/it/hippo.mp3"
+      "audio_it": "audio/it/hippo.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the hippo?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è l'ippopotamo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "rhino",
@@ -387,7 +905,21 @@
       "prompt_it": "Dov'è il rinoceronte?",
       "image": "images/rhino.webp",
       "audio_en": "audio/en/rhino.mp3",
-      "audio_it": "audio/it/rhino.mp3"
+      "audio_it": "audio/it/rhino.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the rhino?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il rinoceronte?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "dolphin",
@@ -397,7 +929,21 @@
       "prompt_it": "Dov'è il delfino?",
       "image": "images/dolphin.webp",
       "audio_en": "audio/en/dolphin.mp3",
-      "audio_it": "audio/it/dolphin.mp3"
+      "audio_it": "audio/it/dolphin.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the dolphin?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il delfino?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "octopus",
@@ -407,7 +953,21 @@
       "prompt_it": "Dov'è il polpo?",
       "image": "images/octopus.webp",
       "audio_en": "audio/en/octopus.mp3",
-      "audio_it": "audio/it/octopus.mp3"
+      "audio_it": "audio/it/octopus.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the octopus?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il polpo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "crab",
@@ -417,7 +977,21 @@
       "prompt_it": "Dov'è il granchio?",
       "image": "images/crab.webp",
       "audio_en": "audio/en/crab.mp3",
-      "audio_it": "audio/it/crab.mp3"
+      "audio_it": "audio/it/crab.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the crab?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il granchio?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "seal",
@@ -427,7 +1001,21 @@
       "prompt_it": "Dov'è la foca?",
       "image": "images/seal.webp",
       "audio_en": "audio/en/seal.mp3",
-      "audio_it": "audio/it/seal.mp3"
+      "audio_it": "audio/it/seal.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the seal?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la foca?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "parrot",
@@ -437,7 +1025,21 @@
       "prompt_it": "Dov'è il pappagallo?",
       "image": "images/parrot.webp",
       "audio_en": "audio/en/parrot.mp3",
-      "audio_it": "audio/it/parrot.mp3"
+      "audio_it": "audio/it/parrot.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the parrot?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il pappagallo?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "peacock",
@@ -447,7 +1049,21 @@
       "prompt_it": "Dov'è il pavone?",
       "image": "images/peacock.webp",
       "audio_en": "audio/en/peacock.mp3",
-      "audio_it": "audio/it/peacock.mp3"
+      "audio_it": "audio/it/peacock.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the peacock?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il pavone?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "flamingo",
@@ -457,7 +1073,21 @@
       "prompt_it": "Dov'è il fenicottero?",
       "image": "images/flamingo.webp",
       "audio_en": "audio/en/flamingo.mp3",
-      "audio_it": "audio/it/flamingo.mp3"
+      "audio_it": "audio/it/flamingo.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the flamingo?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il fenicottero?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "swan",
@@ -467,7 +1097,21 @@
       "prompt_it": "Dov'è il cigno?",
       "image": "images/swan.webp",
       "audio_en": "audio/en/swan.mp3",
-      "audio_it": "audio/it/swan.mp3"
+      "audio_it": "audio/it/swan.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the swan?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il cigno?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "bat",
@@ -477,7 +1121,21 @@
       "prompt_it": "Dov'è il pipistrello?",
       "image": "images/bat.webp",
       "audio_en": "audio/en/bat.mp3",
-      "audio_it": "audio/it/bat.mp3"
+      "audio_it": "audio/it/bat.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the bat?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il pipistrello?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "hedgehog",
@@ -487,7 +1145,21 @@
       "prompt_it": "Dov'è il riccio?",
       "image": "images/hedgehog.webp",
       "audio_en": "audio/en/hedgehog.mp3",
-      "audio_it": "audio/it/hedgehog.mp3"
+      "audio_it": "audio/it/hedgehog.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the hedgehog?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è il riccio?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "snail",
@@ -497,7 +1169,21 @@
       "prompt_it": "Dov'è la lumaca?",
       "image": "images/snail.webp",
       "audio_en": "audio/en/snail.mp3",
-      "audio_it": "audio/it/snail.mp3"
+      "audio_it": "audio/it/snail.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the snail?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la lumaca?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "ladybird",
@@ -507,7 +1193,21 @@
       "prompt_it": "Dov'è la coccinella?",
       "image": "images/ladybird.webp",
       "audio_en": "audio/en/ladybird.mp3",
-      "audio_it": "audio/it/ladybird.mp3"
+      "audio_it": "audio/it/ladybird.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the ladybird?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la coccinella?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "ant",
@@ -517,7 +1217,21 @@
       "prompt_it": "Dov'è la formica?",
       "image": "images/ant.webp",
       "audio_en": "audio/en/ant.mp3",
-      "audio_it": "audio/it/ant.mp3"
+      "audio_it": "audio/it/ant.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the ant?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è la formica?",
+          "language": "it"
+        }
+      }
     },
     {
       "key": "lobster",
@@ -527,7 +1241,21 @@
       "prompt_it": "Dov'è l'aragosta?",
       "image": "images/lobster.webp",
       "audio_en": "audio/en/lobster.mp3",
-      "audio_it": "audio/it/lobster.mp3"
+      "audio_it": "audio/it/lobster.mp3",
+      "generation": {
+        "image": {},
+        "audio_en": {
+          "voice": "sage",
+          "text": "Where's the lobster?"
+        },
+        "audio_it": {
+          "model": "gpt-4o-mini-tts",
+          "voice": "fable",
+          "instructions": "Parla in italiano naturale e chiaro con una voce calda, dolce e giocosa, come un genitore affettuoso che sta giocando con una bambina piccola. Suona umano e spontaneo, non robotico. Tono sereno, amichevole e incoraggiante. Ritmo abbastanza lento e facile da capire per una bimba. Piccola intonazione giocosa alla fine di ogni domanda.",
+          "text": "Dov'è l'aragosta?",
+          "language": "it"
+        }
+      }
     }
   ],
   "shared": {
@@ -542,5 +1270,18 @@
       "audio/it/brava-6.mp3"
     ]
   },
-  "ai_generated_voice": true
+  "ai_generated_voice": true,
+  "authoring": {
+    "version": 1,
+    "settings": {
+      "topic": "Animals",
+      "packId": "animals",
+      "titleEn": "Find the Animal!",
+      "titleIt": "Trova l’animale!",
+      "speechModel": "gpt-4o-mini-tts",
+      "voiceEn": "sage",
+      "voiceIt": "fable"
+    },
+    "notes": "The original illustration prompt and English voice direction were not included in the source HTML. The editor uses its editable default illustration prompt for additions. Italian audio settings are preserved per recording."
+  }
 }
