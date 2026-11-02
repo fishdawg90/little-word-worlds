@@ -1,12 +1,19 @@
 (async()=>{try{
-  const catalog=await fetch('packs/catalog.json').then(r=>{if(!r.ok)throw Error('Cannot load catalogue');return r.json()});
-  const id=new URLSearchParams(location.search).get('pack')||'animals';
-  const entry=catalog.packs.find(p=>p.id===id);
-  if(!entry)throw Error('Unknown pack: '+id);
-  const url=new URL(entry.path,location.href);
-  const pack=await fetch(url).then(r=>{if(!r.ok)throw Error('Cannot load pack');return r.json()});
-  const base=new URL('.',url);
-  const resolve=p=>new URL(p,base).href;
+  const query=new URLSearchParams(location.search);
+  let pack,resolve;
+  if(query.has('local')){
+    pack=await (await import(new URL('shared/local-packs.mjs',location.href).href)).loadLocalPack(query.get('local'));
+    resolve=p=>p;
+  }else{
+    const catalog=await fetch('packs/catalog.json').then(r=>{if(!r.ok)throw Error('Cannot load catalogue');return r.json()});
+    const id=query.get('pack')||'animals';
+    const entry=catalog.packs.find(p=>p.id===id);
+    if(!entry)throw Error('Unknown pack: '+id);
+    const url=new URL(entry.path,location.href);
+    pack=await fetch(url).then(r=>{if(!r.ok)throw Error('Cannot load pack');return r.json()});
+    const base=new URL('.',url);
+    resolve=p=>new URL(p,base).href;
+  }
   const animals=pack.items.map(a=>({...a,image:resolve(a.image),audio_en:resolve(a.audio_en),audio_it:resolve(a.audio_it)}));
   if(animals.length<4)throw Error('A pack needs at least four items');
   pack.shared={...pack.shared,praise:(pack.shared?.praise||[]).map(resolve)};

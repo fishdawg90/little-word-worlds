@@ -6,6 +6,12 @@ Play: https://fishdawg90.github.io/little-word-worlds/
 
 Animals: https://fishdawg90.github.io/little-word-worlds/game.html?pack=animals
 
+## Import packs directly into the game
+
+Open the game homepage and choose **Import a pack**, then select a finished `.pack.json` exported by Pack Studio. The file and embedded media are validated and saved in IndexedDB; a new card appears in the chooser. No OpenAI key or generation calls are needed to import or play. Duplicate IDs and existing vocabulary/aliases are rejected. Only pack content and media are stored; authoring settings are discarded.
+
+Imported packs stay in that browser on that device and are not uploaded to GitHub. To play on another device, import the file there too. A `game.html?local=PACK-ID` link only works after that pack has been imported into the receiving browser. Keep the original pack file because clearing browser data removes saved packs. To make a pack available to everyone, use the repository import workflow below and publish it.
+
 ## Use Pack Studio online
 
 Open https://fishdawg90.github.io/little-word-worlds-studio/ from a modern desktop, tablet or phone browser. Its source is in the separate public repository https://github.com/fishdawg90/little-word-worlds-studio. Enter your own API key for that tab; it is sent directly to OpenAI and never stored in GitHub, drafts or exports. Drafts do not sync between devices: save a draft file and reopen it on the other device.
