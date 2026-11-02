@@ -63,13 +63,13 @@ export function createServer(){return http.createServer(async(req,res)=>{
         }
         const avoid=c.packs.flatMap(p=>p.items.flatMap(i=>[i.en,i.it,...(i.aliases||[])]));
         const prompt=`Create exactly ${count} distinct, easily pictured vocabulary items about ${JSON.stringify(b.topic)} for a toddler learning English and Italian. Exclude these existing names AND their synonyms: ${JSON.stringify(avoid)}. Use singular nouns where natural, correct Italian articles in full questions, and visually unambiguous items. Return ONLY JSON with an items array of objects with key (English lowercase hyphenated ID), en, it, prompt_en, prompt_it, aliases (array of common English and Italian synonyms, include plurals if useful). English question: Where is the ...? Italian: Dov'è ...? No markup.`;
-        const r=await api(key,'responses',{model:b.model||'gpt-4.1-mini',input:prompt,text:{format:{type:'json_object'}}});
+        const r=await api(key,'responses',{model:b.model||'gpt-6-luna',input:prompt,text:{format:{type:'json_object'}}});
         const data=await r.json();const out=data.output?.flatMap(o=>o.content||[]).filter(x=>x.type==='output_text').map(x=>x.text).join('');
         const parsed=JSON.parse(out);validateItems(parsed.items,c);if(parsed.items.length!==count)throw Error('The model returned a different item count. Try again or edit the list.');
         result={items:parsed.items,catalog:c};
       }else if(url.pathname==='/api/image'){
         if(typeof b.prompt!=='string'||!b.prompt.trim()||b.prompt.length>16000)throw Error('Invalid image prompt');
-        const r=await api(key,'images/generations',{model:b.model||'gpt-image-2',prompt:b.prompt,size:'1024x1024',quality:b.quality||'low',output_format:'webp',n:1});
+        const r=await api(key,'images/generations',{model:b.model||'gpt-image-2.5-flare',prompt:b.prompt,size:'1024x1024',quality:b.quality||'low',output_format:'webp',n:1});
         const data=await r.json();if(!data.data?.[0]?.b64_json)throw Error('No image was returned.');result={mime:'image/webp',base64:data.data[0].b64_json};
       }else if(url.pathname==='/api/speech'){
         if(typeof b.text!=='string'||!b.text.trim()||b.text.length>1000)throw Error('Invalid recording text');
