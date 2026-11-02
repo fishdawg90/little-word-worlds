@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Zip your vocabulary pack</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#fff7e8;color:#26392f;font:17px/1.5 system-ui}main{max-width:620px;margin:9vh auto;padding:28px}section{background:#fffefa;border:1px solid #e5e4d9;border-radius:26px;padding:28px;box-shadow:0 8px 30px #26392f09}h1{font-size:36px;line-height:1.1;letter-spacing:-.04em;margin:0 0 16px}p{color:#677368}label{display:block;font-weight:750;margin:24px 0 10px}input{display:block;width:100%;font:inherit}button,a.button{display:inline-block;border:0;border-radius:14px;padding:14px 22px;background:#285e49;color:white;text-decoration:none;font:750 16px system-ui;cursor:pointer;margin-top:22px}button:disabled{opacity:.5;cursor:wait}progress{display:block;width:100%;accent-color:#285e49;margin-top:24px}#status{white-space:pre-wrap;font-size:15px;margin-bottom:0}.small{font-size:13px}#download[hidden]{display:none}</style></head>
+<body><main><section><h1>Zip your pack</h1><p>Choose your exported <b>.pack.json</b> file and download a ZIP you can attach to Codex.</p><p class="small">Everything happens on this device. No upload, installation or API key. Your original file stays unchanged.</p><label for="file">Pack file</label><input id="file" type="file" accept=".json,application/json"><button id="zip" type="button">Create ZIP</button><progress id="progress" value="0" max="100" hidden></progress><p id="status" role="status" aria-live="polite">Ready when you are.</p><a id="download" class="button" hidden>Download ZIP</a><p class="small">For a large pack, keep this page open while it compresses. This tool reads the file in small chunks without parsing its JSON.</p></section></main>
+<script>
+const crcTable=Uint32Array.from({length:256},(_,n)=>{for(let i=0;i<8;i++)n=n&1?0xedb88320^(n>>>1):n>>>1;return n>>>0});
+async function zipFile(file,onProgress=()=>{}){
+  if(file.size>0x7fffffff)throw Error('Please choose a file smaller than 2 GB.');
+  const cleanName=(file.name.split(/[\\/]/).pop()||'vocabulary.pack.json').replace(/[\x00-\x1f\x7f]/g,'_');
+  const name=new TextEncoder().encode(cleanName);if(name.length>65535)throw Error('The filename is too long.');
+  let crc=0xffffffff,read=0,lastUpdate=0;
+  const meter=new TransformStream({transform(chunk,controller){for(const byte of chunk)crc=crcTable[(crc^byte)&255]^(crc>>>8);read+=chunk.length;const now=Date.now();if(now-lastUpdate>100||read===file.size){onProgress(file.size?read/file.size:1);lastUpdate=now}controller.enqueue(chunk)}});
+  let payload,method;
+  if(typeof CompressionStream==='function'){
+    // Browser "deflate" produces a zlib wrapper; ZIP contains the raw DEFLATE payload.
+    const wrapped=await new Response(file.stream().pipeThrough(meter).pipeThrough(new CompressionStream('deflate'))).blob();
+    payload=wrapped.slice(2,wrapped.size-4);method=8;
+  }else{
+    const reader=file.stream().pipeThrough(meter).getReader();while(!(await reader.read()).done){}payload=file;method=0;
+  }
+  crc=(crc^0xffffffff)>>>0;
+  const date=new Date(),year=Math.max(1980,Math.min(2107,date.getFullYear())),dosDate=((year-1980)<<9)|((date.getMonth()+1)<<5)|date.getDate(),dosTime=(date.getHours()<<11)|(date.getMinutes()<<5)|(date.getSeconds()>>1);
+  const local=new Uint8Array(30),l=new DataView(local.buffer);l.setUint32(0,0x04034b50,true);l.setUint16(4,20,true);l.setUint16(6,0x800,true);l.setUint16(8,method,true);l.setUint16(10,dosTime,true);l.setUint16(12,dosDate,true);l.setUint32(14,crc,true);l.setUint32(18,payload.size,true);l.setUint32(22,file.size,true);l.setUint16(26,name.length,true);
+  const central=new Uint8Array(46),c=new DataView(central.buffer);c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);c.setUint16(6,20,true);c.setUint16(8,0x800,true);c.setUint16(10,method,true);c.setUint16(12,dosTime,true);c.setUint16(14,dosDate,true);c.setUint32(16,crc,true);c.setUint32(20,payload.size,true);c.setUint32(24,file.size,true);c.setUint16(28,name.length,true);
+  const end=new Uint8Array(22),e=new DataView(end.buffer);e.setUint32(0,0x06054b50,true);e.setUint16(8,1,true);e.setUint16(10,1,true);e.setUint32(12,central.length+name.length,true);e.setUint32(16,local.length+name.length+payload.size,true);
+  return {blob:new Blob([local,name,payload,central,name,end],{type:'application/zip'}),filename:cleanName.replace(/\.json$/i,'')+'.zip',compressed:method===8};
+}
+const fileInput=document.getElementById('file'),button=document.getElementById('zip'),status=document.getElementById('status'),progress=document.getElementById('progress'),download=document.getElementById('download');let downloadUrl;
+button.onclick=async()=>{
+  const file=fileInput.files[0];if(!file){status.textContent='Choose your .pack.json file first.';return;}
+  button.disabled=true;fileInput.disabled=true;download.hidden=true;progress.hidden=false;progress.value=0;status.textContent='Compressing your pack…';if(downloadUrl){URL.revokeObjectURL(downloadUrl);downloadUrl=null;}
+  try{
+    const result=await zipFile(file,p=>progress.value=Math.round(p*100));downloadUrl=URL.createObjectURL(result.blob);download.href=downloadUrl;download.download=result.filename;download.hidden=false;progress.value=100;
+    const mb=n=>(n/1024/1024).toFixed(1)+' MB';status.textContent='Ready: '+mb(file.size)+' → '+mb(result.blob.size)+'.\nTap Download ZIP, then attach that ZIP to Codex.'+(result.compressed?'':'\nThis browser could package the file but does not support compression. Use a current Chrome, Edge, Firefox or Safari for a smaller ZIP.');
+  }catch(err){status.textContent='Could not create the ZIP: '+err.message+' Try a current browser or use your computer for a very large pack.';}finally{button.disabled=false;fileInput.disabled=false;}
+};
+</script></body></html>
