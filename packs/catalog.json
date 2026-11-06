@@ -448,6 +448,123 @@
           "aliases": []
         }
       ]
+    },
+    {
+      "id": "transportation",
+      "title": {
+        "en": "Find the Vehicles!",
+        "it": "Trova i mezzi di trasporto!"
+      },
+      "topic": "Transportation",
+      "emoji": "🚗 🚂 ✈️",
+      "path": "packs/transportation/pack.json",
+      "items": [
+        {
+          "key": "car",
+          "en": "car",
+          "it": "macchina",
+          "aliases": [
+            "auto",
+            "automobile"
+          ]
+        },
+        {
+          "key": "bus",
+          "en": "bus",
+          "it": "autobus",
+          "aliases": [
+            "coach",
+            "corriera"
+          ]
+        },
+        {
+          "key": "train",
+          "en": "train",
+          "it": "treno",
+          "aliases": []
+        },
+        {
+          "key": "bicycle",
+          "en": "bicycle",
+          "it": "bicicletta",
+          "aliases": [
+            "bike",
+            "bici"
+          ]
+        },
+        {
+          "key": "airplane",
+          "en": "airplane",
+          "it": "aereo",
+          "aliases": [
+            "plane",
+            "aeroplano"
+          ]
+        },
+        {
+          "key": "boat",
+          "en": "boat",
+          "it": "barca",
+          "aliases": [
+            "rowboat",
+            "barchetta"
+          ]
+        },
+        {
+          "key": "truck",
+          "en": "truck",
+          "it": "camion",
+          "aliases": [
+            "lorry",
+            "autocarro"
+          ]
+        },
+        {
+          "key": "taxi",
+          "en": "taxi",
+          "it": "taxi",
+          "aliases": [
+            "cab",
+            "taxicab",
+            "tassì"
+          ]
+        },
+        {
+          "key": "motorcycle",
+          "en": "motorcycle",
+          "it": "motocicletta",
+          "aliases": [
+            "motorbike",
+            "moto"
+          ]
+        },
+        {
+          "key": "helicopter",
+          "en": "helicopter",
+          "it": "elicottero",
+          "aliases": [
+            "chopper"
+          ]
+        },
+        {
+          "key": "ship",
+          "en": "ship",
+          "it": "nave",
+          "aliases": [
+            "vessel"
+          ]
+        },
+        {
+          "key": "scooter",
+          "en": "scooter",
+          "it": "monopattino",
+          "aliases": [
+            "kick scooter",
+            "push scooter",
+            "monopattino a spinta"
+          ]
+        }
+      ]
     }
   ]
 }

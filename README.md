@@ -4,6 +4,8 @@ A bilingual picture game for little hands, using the original 52 animal illustra
 
 Play: https://fishdawg90.github.io/little-word-worlds/
 
+The opening screen offers Animals (52 words), Fruit & Vegetables (24 words), and Vehicles (12 words), with an English/Italian language choice. Compact illustrated cards stack on phones and sit side by side on larger screens. A plain `game.html` link opens this chooser; links containing `pack=` or `local=` open the selected game. Each game has a prominent link back to all games.
+
 Animals: https://fishdawg90.github.io/little-word-worlds/game.html?pack=animals
 
 ## Import packs directly into the game

@@ -1,0 +1,461 @@
+{
+  "format": "vocabulary-pack",
+  "version": 1,
+  "id": "transportation",
+  "title": {
+    "en": "Find the Vehicles!",
+    "it": "Trova i mezzi di trasporto!"
+  },
+  "topic": "Transportation",
+  "emoji": "🚗 🚂 ✈️",
+  "ai_generated_voice": true,
+  "authoring": {
+    "version": 1,
+    "settings": {
+      "topic": "Transportation",
+      "count": "12",
+      "packId": "transportation",
+      "emoji": "🚗 🚂 ✈️",
+      "titleEn": "Find the Vehicles!",
+      "titleIt": "Trova i mezzi di trasporto!",
+      "imagePrompt": "A single {item}, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery.",
+      "quality": "low",
+      "speechModel": "gpt-realtime-2.1-mini",
+      "voiceEn": "sage",
+      "voiceIt": "marin",
+      "voiceInstructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question.",
+      "textModel": "gpt-6-luna",
+      "imageModel": "gpt-image-2.5-flare"
+    },
+    "notes": ""
+  },
+  "items": [
+    {
+      "key": "car",
+      "en": "car",
+      "it": "macchina",
+      "prompt_en": "Where is the car?",
+      "prompt_it": "Dov'è la macchina?",
+      "aliases": [
+        "auto",
+        "automobile"
+      ],
+      "image": "images/car.webp",
+      "audio_en": "audio/en/car.wav",
+      "audio_it": "audio/it/car.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single car, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the car?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la macchina?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "bus",
+      "en": "bus",
+      "it": "autobus",
+      "prompt_en": "Where is the bus?",
+      "prompt_it": "Dov'è l'autobus?",
+      "aliases": [
+        "coach",
+        "corriera"
+      ],
+      "image": "images/bus.webp",
+      "audio_en": "audio/en/bus.wav",
+      "audio_it": "audio/it/bus.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single bus, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the bus?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'autobus?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "train",
+      "en": "train",
+      "it": "treno",
+      "prompt_en": "Where is the train?",
+      "prompt_it": "Dov'è il treno?",
+      "aliases": [],
+      "image": "images/train.webp",
+      "audio_en": "audio/en/train.wav",
+      "audio_it": "audio/it/train.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single train, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the train?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il treno?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "bicycle",
+      "en": "bicycle",
+      "it": "bicicletta",
+      "prompt_en": "Where is the bicycle?",
+      "prompt_it": "Dov'è la bicicletta?",
+      "aliases": [
+        "bike",
+        "bici"
+      ],
+      "image": "images/bicycle.webp",
+      "audio_en": "audio/en/bicycle.wav",
+      "audio_it": "audio/it/bicycle.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single bicycle, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the bicycle?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la bicicletta?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "airplane",
+      "en": "airplane",
+      "it": "aereo",
+      "prompt_en": "Where is the airplane?",
+      "prompt_it": "Dov'è l'aereo?",
+      "aliases": [
+        "plane",
+        "aeroplano"
+      ],
+      "image": "images/airplane.webp",
+      "audio_en": "audio/en/airplane.wav",
+      "audio_it": "audio/it/airplane.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single airplane, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the airplane?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'aereo?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "boat",
+      "en": "boat",
+      "it": "barca",
+      "prompt_en": "Where is the boat?",
+      "prompt_it": "Dov'è la barca?",
+      "aliases": [
+        "rowboat",
+        "barchetta"
+      ],
+      "image": "images/boat.webp",
+      "audio_en": "audio/en/boat.wav",
+      "audio_it": "audio/it/boat.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single boat, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the boat?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la barca?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "truck",
+      "en": "truck",
+      "it": "camion",
+      "prompt_en": "Where is the truck?",
+      "prompt_it": "Dov'è il camion?",
+      "aliases": [
+        "lorry",
+        "autocarro"
+      ],
+      "image": "images/truck.webp",
+      "audio_en": "audio/en/truck.wav",
+      "audio_it": "audio/it/truck.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single truck, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the truck?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il camion?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "taxi",
+      "en": "taxi",
+      "it": "taxi",
+      "prompt_en": "Where is the taxi?",
+      "prompt_it": "Dov'è il taxi?",
+      "aliases": [
+        "cab",
+        "taxicab",
+        "tassì"
+      ],
+      "image": "images/taxi.webp",
+      "audio_en": "audio/en/taxi.wav",
+      "audio_it": "audio/it/taxi.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single taxi, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the taxi?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il taxi?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "motorcycle",
+      "en": "motorcycle",
+      "it": "motocicletta",
+      "prompt_en": "Where is the motorcycle?",
+      "prompt_it": "Dov'è la motocicletta?",
+      "aliases": [
+        "motorbike",
+        "moto"
+      ],
+      "image": "images/motorcycle.webp",
+      "audio_en": "audio/en/motorcycle.wav",
+      "audio_it": "audio/it/motorcycle.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single motorcycle, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the motorcycle?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la motocicletta?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "helicopter",
+      "en": "helicopter",
+      "it": "elicottero",
+      "prompt_en": "Where is the helicopter?",
+      "prompt_it": "Dov'è l'elicottero?",
+      "aliases": [
+        "chopper"
+      ],
+      "image": "images/helicopter.webp",
+      "audio_en": "audio/en/helicopter.wav",
+      "audio_it": "audio/it/helicopter.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single helicopter, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the helicopter?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è l'elicottero?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "ship",
+      "en": "ship",
+      "it": "nave",
+      "prompt_en": "Where is the ship?",
+      "prompt_it": "Dov'è la nave?",
+      "aliases": [
+        "vessel"
+      ],
+      "image": "images/ship.webp",
+      "audio_en": "audio/en/ship.wav",
+      "audio_it": "audio/it/ship.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single ship, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the ship?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è la nave?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    },
+    {
+      "key": "scooter",
+      "en": "scooter",
+      "it": "monopattino",
+      "prompt_en": "Where is the scooter?",
+      "prompt_it": "Dov'è il monopattino?",
+      "aliases": [
+        "kick scooter",
+        "push scooter",
+        "monopattino a spinta"
+      ],
+      "image": "images/scooter.webp",
+      "audio_en": "audio/en/scooter.wav",
+      "audio_it": "audio/it/scooter.wav",
+      "generation": {
+        "image": {
+          "model": "gpt-image-2.5-flare",
+          "quality": "low",
+          "prompt": "A single scooter, clearly recognisable to a toddler, centred and fully visible. Charming hand-painted children's picture-book illustration, soft gouache and watercolour texture, rounded friendly shapes, warm dark-brown outlines, gentle pastel colours and a small soft ground shadow. Simple warm ivory background (#fffbea). If an animal, give it a friendly face and cute proportions. Match a cohesive set of vocabulary flashcards. Square composition, generous space around the subject. No words, letters, numbers, labels, borders, logos, other objects or scenery."
+        },
+        "audio_en": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "sage",
+          "language": "en",
+          "text": "Where is the scooter?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        },
+        "audio_it": {
+          "model": "gpt-realtime-2.1-mini",
+          "voice": "marin",
+          "language": "it",
+          "text": "Dov'è il monopattino?",
+          "instructions": "Warm, gentle, playful and encouraging, like a parent playing a picture game with a toddler. Speak naturally and clearly at a relaxed pace. Use a small playful rise at the end of a question."
+        }
+      }
+    }
+  ],
+  "shared": {
+    "praise": [
+      "../animals/audio/it/brava-1.mp3",
+      "../animals/audio/it/brava-2.mp3",
+      "../animals/audio/it/brava-3.mp3",
+      "../animals/audio/it/brava-4.mp3",
+      "../animals/audio/it/brava-5.mp3",
+      "../animals/audio/it/brava-6.mp3"
+    ]
+  }
+}

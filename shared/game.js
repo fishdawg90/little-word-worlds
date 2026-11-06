@@ -1,5 +1,6 @@
 (async()=>{try{
   const query=new URLSearchParams(location.search);
+  if(!query.has('pack')&&!query.has('local')){location.replace('./'+(query.get('lang')==='it'?'?lang=it':''));return;}
   let pack,resolve;
   if(query.has('local')){
     pack=await (await import(new URL('shared/local-packs.mjs',location.href).href)).loadLocalPack(query.get('local'));
@@ -38,7 +39,7 @@ const langItBtn=document.getElementById('langItBtn');
 const count4Btn=document.getElementById('count4Btn');
 const count6Btn=document.getElementById('count6Btn');
 
-let state={lang:'en',choiceCount:4};
+let state={lang:query.get('lang')==='it'?'it':'en',choiceCount:4};
 let unaskedTargets=[];
 let choices=[];
 let target=null;
@@ -76,6 +77,8 @@ function updateSplashTexts(){
 
   startTitle.textContent=pack.title[state.lang] || pack.title.en;
   document.title=startTitle.textContent;
+  document.getElementById('allGamesLink').textContent=itMode?'← Scegli un altro gioco':'← Choose another game';
+  document.querySelector('.session-finish .big').textContent='🎉 '+(pack.emoji||'🌟')+' 🎉';
   document.querySelector('.start-animals').textContent=pack.emoji || '🌟';
   startCopy.textContent=itMode ? 'Prima ascolta, poi tocca la carta giusta. Ogni parola viene chiesta una volta prima di ripetersi.' : 'Listen, then tap the right picture. Every word gets a turn before any repeats.';
   startBtn.textContent=itMode?'GIOCA':'PLAY';
@@ -449,6 +452,7 @@ async function enterFullscreen(){
 }
 function setLanguage(lang){
   state.lang=lang;
+  try{localStorage.setItem('little-word-worlds-language',lang)}catch{}
   updateSplashTexts();
   if(hasStarted && target){
     choices=makeChoices(target.key);

@@ -15,3 +15,21 @@ test('shared engine preserves listening gate and independent fingers, rejects ho
  ctx.debug.chooseRound(false);assert.notEqual(ctx.debug.target.key,target.key);point=elements.get('animalGrid').children.find(x=>x.dataset.key===ctx.debug.target.key);now=1100;listeners.get('pointerdown')(event(3));now=2000;listeners.get('pointerup')(event(3));assert.equal(ctx.debug.locked,false,'long contact is ignored');
  const seen=new Set([target.key,ctx.debug.target.key]);for(let i=0;i<50;i++){ctx.debug.chooseRound(false);assert.ok(!seen.has(ctx.debug.target.key));seen.add(ctx.debug.target.key)}assert.equal(seen.size,52);
 });
+
+test('a plain game link opens the chooser without loading a default pack',async()=>{
+ let destination,requests=0;const src=fs.readFileSync('shared/game.js','utf8');
+ await vm.runInNewContext(src,{URLSearchParams,location:{search:'?lang=it',replace:url=>destination=url},fetch:()=>{requests++}});
+ assert.equal(destination,'./?lang=it');assert.equal(requests,0);
+});
+
+test('the vehicles game respects Italian selection and plays its Italian recordings',async()=>{
+ const elements=new Map();class E{constructor(){this.children=[];this.dataset={};this.events={};this.classList={add(){},remove(){},toggle(){},contains:()=>true};this.style={setProperty(){}}}appendChild(e){this.children.push(e)}set innerHTML(v){this.children=[]}setAttribute(){}addEventListener(n,f){this.events[n]=f}}
+ const get=id=>{if(!elements.has(id))elements.set(id,new E());return elements.get(id)};
+ const document={getElementById:get,querySelector:()=>new E(),documentElement:new E(),body:new E(),createElement:()=>new E(),addEventListener(){}};let played;
+ class Audio{constructor(src){this.src=src}load(){}pause(){}play(){played=this.src;this.paused=false;this.currentTime=1;return Promise.resolve()}}
+ const catalog=JSON.parse(fs.readFileSync('packs/catalog.json')),pack=JSON.parse(fs.readFileSync('packs/transportation/pack.json'));
+ const ctx={document,window:{addEventListener(){}},Audio,navigator:{},URL,URLSearchParams,location:{href:'https://example.com/game.html?pack=transportation&lang=it',search:'?pack=transportation&lang=it'},setTimeout:()=>1,clearTimeout(){},fetch:async p=>({ok:true,json:async()=>String(p).includes('catalog')?catalog:pack})};
+ await vm.runInNewContext(fs.readFileSync('shared/game.js','utf8'),ctx);
+ assert.equal(get('startTitle').textContent,pack.title.it);assert.ok(pack.items.some(i=>i.prompt_it===get('promptText').textContent));assert.equal(get('animalGrid').children.length,4);assert.match(get('allGamesLink').textContent,/Scegli/);
+ await get('startBtn').events.pointerdown({preventDefault(){}});assert.ok(played.includes('/packs/transportation/audio/it/'));
+});
